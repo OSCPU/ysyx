@@ -1,0 +1,175 @@
+
+@font-face {
+   font-family: 'PVGNTLightFont';
+   src: url('/web/font/neutratext-booksc-webfont.eot');
+}
+@font-face {
+    font-family: 'PVGCGFont';
+    src: url('/web/font/centurygothic-webfont.eot');
+    src: local('CenturyGothic'), url('/web/font/centurygothic-webfont.svg#CenturyGothic') format('svg');
+    src: local('CenturyGothic'), url('/web/font/centurygothic-webfont.ttf') format('truetype');
+}
+
+body, td {
+  font-family: "PVGCGFont",Calibri,Arial;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;  
+}
+
+b {
+	font-family: Arial;
+}
+
+
+h1 {
+	font-family: Arial;
+	font-size: 40pt;
+}
+
+h2 {
+	font-family: Arial;
+	font-size: 25pt;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 20pt;
+}
+
+body
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+	
+	background-image:url('/web/background_black.png');
+	background-repeat:repeat-x;
+	
+}
+.icon {
+	vertical-align: bottom;
+	margin-bottom: 10px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+}
+.icon img{
+    margin-left: auto;
+    margin-right: auto;			
+	height: 40px;
+	display: block;
+}
+
+#projects div {
+	vertical-align: text-top;
+	width: 160px;
+	height: 150px;
+	display: inline-block;
+	text-align:center;	
+}
+
+#projects div img{
+	display: inline;
+	max-height: 90px !important;
+}
+
+#people div {
+	vertical-align: text-top;
+	width: 160px;
+	height: 170px;
+	display: inline-block;
+	text-align:center;	
+}
+
+#people div img{
+	display: inline;
+	max-height: 110px !important;
+}
+
+#pubList tr td:first-child{
+  width: 120px;
+  height: 80px;
+  text-align: center;
+}
+#pubList tr td:last-child{
+  padding-left: 20px;
+}
+#pubList tr td img{
+  max-width: 120px !important;
+  max-height: 80px !important; 
+}
+
+
+#projectList tr td:first-child{
+  width: 120px;
+  height: 80px;
+  text-align: center;
+}
+#projectList tr td:last-child{
+  padding-left: 20px;
+}
+#projectList tr td img{
+  max-width: 120px !important;
+  max-height: 80px !important; 
+}
+
+a:visited, a:link {
+	text-decoration: none;
+	color: #000000;
+	border-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+a:hover {
+	color:#FF0000;
+	font-weight: bold;
+}
+
+/* Footer */
+
+#footer {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px;
+    font-family: 'Abel', sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* Three Column Footer Content */
+
+#footer-content {
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    width: 1000px;
+    margin: auto auto;
+    padding: 0px;
+    color: #000000;
+}
+
+    #footer-content h2 {
+        font-family: Arial;
+        color: #000000;
+        line-height: 1;
+        font-size: 30px;
+        text-align: left;
+    }
+
+
+
+    #footer-content ul {
+        margin: 0px;
+        letter-spacing: -1px;
+        font-size: 30px;
+    }
+
+
+.imgul li {
+    display: inline-block;
+    margin: 0 5px;
+    list-style: none;
+    align-items: center;
+    vertical-align: top;
+}
