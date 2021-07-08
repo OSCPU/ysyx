@@ -8,6 +8,7 @@ table{
 	min-height: 80vh;
 	vertical-align: top;
 	font-weight: 400;
+	max-width: 1200px;
 }
 
 td{
