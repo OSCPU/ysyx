@@ -1,3 +1,5 @@
+@import "./codicon.css";
+
 *{
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,6 +10,7 @@ body{
 	overflow-x: hidden;
 }
 
+a.link_current,
 a.link {
 	font-weight: 300;
 	line-height: 1em;
@@ -16,6 +19,7 @@ a.link {
 	border-bottom: 2px solid #ffffff00;
 }
 
+a.link_current,
 a.link:hover {
 	border-bottom: 2px solid #1b4a81;
 }

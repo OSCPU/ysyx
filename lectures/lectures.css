@@ -1,0 +1,74 @@
+@import "../index.css";
+
+table{
+	background-color: #EEE;
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+	min-height: 80vh;
+	vertical-align: top;
+	font-weight: 400;
+}
+
+td{
+	padding: 2em;
+	vertical-align: top;
+}
+
+.navi{
+	background-color: #DDD;
+	width: 16em;
+	padding: 1em 0;
+}
+
+.cards{
+	width: 16em;
+}
+
+.cards > *{
+	box-sizing: border-box;
+	width: 16em;
+	margin-bottom: 1.2em;
+	border-radius: 4px;
+	box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.3);
+}
+
+.cards > a{
+	padding: 0.4em 0.6em;
+	text-decoration: none;
+	color: white;
+	background-color: #1b4a81;
+	overflow: hidden;
+}
+
+.cards > a:hover,
+.cards > a:active{
+	background-color: #2462a8;
+}
+
+.cards > a:link{
+	background-color: #1b4a81;
+}
+
+.navi > a{
+	display: block;
+	padding: 0.5em 1.2em;
+	margin: 0.5em 0;
+	text-decoration: none;
+}
+.navi > a > *{
+	font-size: 0.8em;
+	pointer-events: none;
+}
+
+.navi > a.current{
+	font-weight: 500;
+	background-color: #BBB;
+}
+.navi > a:not(.current):hover{
+	background-color: #CCC;
+}
+.navi > a:not(.current):link,
+.navi > a:not(.current):active{
+	background-color: #DDD;
+}
