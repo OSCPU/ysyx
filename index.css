@@ -1,0 +1,57 @@
+@import "res/global.css";
+
+.contentWrapper{
+	display: block;
+	margin: auto;
+	width: 100vw;
+	max-width: 1200px;
+}
+
+.collateral{
+	height: 3em;
+	margin: 2em;
+	filter: saturate(0);
+	opacity: 0.6;
+}
+
+div.banner{
+	margin: 0;
+	width: 100vw;
+	padding: 0.5em;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+}
+
+div.header{
+	display: flex;
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+	font-weight: 200;
+	vertical-align: bottom;
+}
+
+div.header > *{
+	display: flex;
+	margin: 0 1em;
+	padding: 0.2em 0;
+	line-height: 1em;
+}
+
+div.poster{
+	display: flex;
+	margin: 0;
+	padding: 2em 0;
+	vertical-align: bottom;
+}
+
+div.poster > *{
+	display: flex;
+	margin: 1em 0;
+	line-height: 120%;
+}
+
+a{
+	color: inherit;
+}
