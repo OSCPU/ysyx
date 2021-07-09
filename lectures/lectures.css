@@ -24,6 +24,8 @@ td{
 
 .cards{
 	width: 16em;
+	display: flex;
+	flex-direction: column;
 }
 
 .cards > *{
@@ -35,31 +37,40 @@ td{
 }
 
 .cards > a{
+	display: flex;
 	padding: 0.4em 0.6em;
 	text-decoration: none;
-	color: white;
-	background-color: #1b4a81;
 	overflow: hidden;
+	flex-direction: row;
+	justify-content: left;
+	vertical-align: center;
 }
 
 .cards > a:hover,
 .cards > a:active{
-	background-color: #2462a8;
+	filter: brightness(1.1);
 }
 
 .cards > a:link{
-	background-color: #1b4a81;
+}
+
+.cards > a > *{
+	display: flex;
+}
+.cards > a > :not(.codicon){
+	font-weight: lighter;
+	pointer-events: none;
+}
+.cards > a > .codicon{
+	font-size: 2em;
+	pointer-events: none;
 }
 
 .navi > a{
-	display: block;
+	display: flex;
 	padding: 0.5em 1.2em;
 	margin: 0.5em 0;
 	text-decoration: none;
-}
-.navi > a > *{
-	font-size: 0.8em;
-	pointer-events: none;
 }
 
 .navi > a.current{
