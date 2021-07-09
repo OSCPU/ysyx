@@ -31,6 +31,22 @@ a.link:active {
 a.link:link {
 }
 
+
+
+.banner{
+	margin: 0;
+	width: 100vw;
+	padding: 0.5em;
+	text-align: center;
+	color: #fffA;
+	font-weight: 400;
+}
+
+.banner b{
+	color:  #FFF;
+	font-weight: 600;
+}
+
 .disabled{
 	/* color: gray; */
 	filter: saturate(0);
