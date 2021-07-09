@@ -1,5 +1,10 @@
 @import "./codicon.css";
 
+:root{
+	--accent: #1b4a81;
+	--accent-bright: #2d7ad2;
+}
+
 *{
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,17 +26,19 @@ a.link {
 
 a.link_current,
 a.link:hover {
-	border-bottom: 2px solid #1b4a81;
+	border-bottom: 2px solid var(--accent);
 }
 
 a.link:active {
-	border-bottom: 2px solid #1b4a81;
+	border-bottom: 2px solid var(--accent);
 }
 
 a.link:link {
 }
 
-
+a{
+	color: inherit;
+}
 
 .banner{
 	margin: 0;
