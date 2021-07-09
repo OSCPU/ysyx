@@ -49,6 +49,8 @@ a.button{
 	border-radius: 2em;
 	font-size: 1em;
 	font-weight: 400;
+	height: 1.2em;
+	line-height: 1.2em;
 	padding: 0.3em 0.8em;
 	user-select: none;
 	cursor: pointer;
@@ -104,8 +106,22 @@ a.button:active{
 	padding: 0.5em;
 	border-radius: 1em;
 	width: 100%;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	margin: 1em 0;
+	justify-content: left;
+}
+
+.event_entry .content{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	flex-direction: row;
+	padding-left: 1em;
+}
+
+.event_entry .content > *{
+	box-sizing: content-box;
+	/* margin: 0.5em; */
 }
 
 .event_entry:hover{
