@@ -14,15 +14,6 @@
 	opacity: 0.6;
 }
 
-div.banner{
-	margin: 0;
-	width: 100vw;
-	padding: 0.5em;
-	text-align: center;
-	color: white;
-	font-weight: 200;
-}
-
 div.header{
 	display: flex;
 	margin: 0;
