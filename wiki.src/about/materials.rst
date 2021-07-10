@@ -1,4 +1,4 @@
-.. _Materials:
+.. _materials:
 
 ************
 参考资料
@@ -43,47 +43,40 @@
 RISC-V
 ------------
 
-1. RISC-V指令集手册
+| 1. RISC-V指令集手册
+|   https://github.com/riscv/riscv-isa-manual
 
-   https://github.com/riscv/riscv-isa-manual
-
-2. RISC-V各种资料(如ABI规范等)
-
-   https://github.com/riscv/
+| 2. RISC-V各种资料(如ABI规范等)
+|   https://github.com/riscv/
 
 Chisel
 ------------
 
-1. Chisel Bootcamp - 很不错的chisel教程, 支持在线运行chisel代码, 可以边写chisel代码边学习
-
-   https://github.com/freechipsproject/chisel-bootcamp
+| 1. Chisel Bootcamp - 很不错的chisel教程, 支持在线运行chisel代码, 可以边写chisel代码边学习
+|   https://github.com/freechipsproject/chisel-bootcamp
 
 .. note::
 	第1章是scala入门, 第2章是chisel基础, 第3章是scala高级特性和chisel的混合使用, 第4章是FIRRTL后端相关内容
 	学习前两章 = 入门, 学习第3章 = 提高, 第4章可以作为课外阅读材料
 
-2. Chisel Users Guide - 比较系统地整理了chisel的特性, 也是不错的入门教程
-
-   https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel
-
-	
-3. Chisel小抄 - 简明地列出了chisel语言的大部分用法
-
-   https://chisel.eecs.berkeley.edu/doc/chisel-cheatsheet3.pdf
+| 2. Chisel Users Guide - 比较系统地整理了chisel的特性, 也是不错的入门教程
+|   https://github.com/freechipsproject/chisel3/wiki/Short-Users-Guide-to-Chisel
 
 	
-4. Chisel API - 详细地列出了chisel库的所有API供参考
-
-   https://chisel.eecs.berkeley.edu/api/latest/index.html
+| 3. Chisel小抄 - 简明地列出了chisel语言的大部分用法
+|   https://chisel.eecs.berkeley.edu/doc/chisel-cheatsheet3.pdf
 
 	
-5. Chisel示例项目
+| 4. Chisel API - 详细地列出了chisel库的所有API供参考
+|   https://chisel.eecs.berkeley.edu/api/latest/index.html
 
-   https://github.com/OpenXiangShan/chisel-playground
+	
+| 5. Chisel示例项目
+|   https://github.com/OpenXiangShan/chisel-playground
 
 	
 用Chisel开发的RISC-V处理器示例项目
-------------
+------------------------------------
 	
 1. https://github.com/ucb-bar/riscv-sodor
 

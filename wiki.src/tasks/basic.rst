@@ -14,18 +14,18 @@ Task 2
 
 时间: 2 Weeks
 
-1. 加上 difftest					
+1. 加上 difftest
 
-2. 实现更多基础指令, 通过 cpu-test 和 riscv-test 测试					
+2. 实现更多基础指令, 通过 cpu-test 和 riscv-test 测试
 
 Task 3
 =======
 
 时间: 2 Weeks
 
-1. 加一条自定义指令, 执行后输出单个字符, 可运行hello程序
+1. 加一条自定义指令, 执行后输出单个字符, 可运行 hello 程序
 
-2. 添加mcycle寄存器, 通过time-test和所有benchmark, 运行字符版的超级玛丽					
+2. 添加 mcycle 寄存器, 通过 time-test 和所有 benchmark, 运行字符版的超级玛丽
 
 Task 4
 =======
@@ -43,21 +43,21 @@ Task 5
 
 1. 添加mepc, mcause, mstatus特殊寄存器, 
 
-2. 实现ecall指令, 并运行yield-test	
+2. 实现ecall指令, 并运行yield-test
 
 Task 6
 =======
 
 时间: 1 Week
 
-1. 添加更多的csr，运行rt-thread					
+1. 添加更多的csr，运行rt-thread
 
 Task 7
 =======
 
 时间: 2 Weeks
 
-1. 建立流水线框架，实现RV64I基本指令的流水化，解决数据冒险与控制冒险					
+1. 建立流水线框架，实现RV64I基本指令的流水化，解决数据冒险与控制冒险
 
 Task 8
 =======

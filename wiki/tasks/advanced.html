@@ -99,18 +99,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="prepare.html">前期准备</a></li>
 <li class="toctree-l1"><a class="reference internal" href="basic.html">基础: CPU核心构建与调试 (3个月)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">进阶: 性能/时序优化、后端流程等</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#task-1">Task 1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-2">Task 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-3">Task 3</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-4">Task 4</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-5">Task 5</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-6">Task 6</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-7">Task 7</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-8">Task 8</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#task-9">Task 9</a></li>
-</ul>
-</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">进阶: 性能/时序优化、后端流程等</a></li>
 </ul>
 <p class="caption"><span class="caption-text">常见问题解答</span></p>
 <ul>
@@ -186,73 +175,20 @@
             
   <section id="id1">
 <h1>进阶: 性能/时序优化、后端流程等<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<section id="task-1">
-<h2>Task 1<a class="headerlink" href="#task-1" title="Permalink to this headline">¶</a></h2>
-<p>时间: 1 Week</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>最终交付时间之后, 不再开放流片机会, 但可以继续学习</p>
+</div>
 <ol class="arabic simple">
-<li><p>实现单周期, addi 指令; 运行 addi 指令, 并得到正确结果</p></li>
+<li><p>分支预测</p></li>
+<li><p>cache</p></li>
+<li><p>顺序多发射</p></li>
+<li><p>乱序多发射</p></li>
+<li><p>SoC集成验证</p></li>
+<li><p>进行时序优化</p></li>
+<li><p>了解后端流程</p></li>
+<li><p>设计复杂处理器设计的同学，建议使用 Chisel</p></li>
 </ol>
-</section>
-<section id="task-2">
-<h2>Task 2<a class="headerlink" href="#task-2" title="Permalink to this headline">¶</a></h2>
-<p>时间: 2 Weeks</p>
-<ol class="arabic simple">
-<li><p>加上 difftest</p></li>
-<li><p>实现更多基础指令, 通过 cpu-test 和 riscv-test 测试</p></li>
-</ol>
-</section>
-<section id="task-3">
-<h2>Task 3<a class="headerlink" href="#task-3" title="Permalink to this headline">¶</a></h2>
-<p>时间: 2 Weeks</p>
-<ol class="arabic simple">
-<li><p>加一条自定义指令, 执行后输出单个字符, 可运行hello程序</p></li>
-<li><p>添加mcycle寄存器, 通过time-test和所有benchmark, 运行字符版的超级玛丽</p></li>
-</ol>
-</section>
-<section id="task-4">
-<h2>Task 4<a class="headerlink" href="#task-4" title="Permalink to this headline">¶</a></h2>
-<p>时间: 1 Week</p>
-<ol class="arabic simple">
-<li><p>实现AXI总线, 接入串口, 并且去掉自定义指令</p></li>
-<li><p>通过AXI总线访存</p></li>
-</ol>
-</section>
-<section id="task-5">
-<h2>Task 5<a class="headerlink" href="#task-5" title="Permalink to this headline">¶</a></h2>
-<p>时间: 1.5 Week(s)</p>
-<ol class="arabic simple">
-<li><p>添加mepc, mcause, mstatus特殊寄存器,</p></li>
-<li><p>实现ecall指令, 并运行yield-test</p></li>
-</ol>
-</section>
-<section id="task-6">
-<h2>Task 6<a class="headerlink" href="#task-6" title="Permalink to this headline">¶</a></h2>
-<p>时间: 1 Week</p>
-<ol class="arabic simple">
-<li><p>添加更多的csr，运行rt-thread</p></li>
-</ol>
-</section>
-<section id="task-7">
-<h2>Task 7<a class="headerlink" href="#task-7" title="Permalink to this headline">¶</a></h2>
-<p>时间: 2 Weeks</p>
-<ol class="arabic simple">
-<li><p>建立流水线框架，实现RV64I基本指令的流水化，解决数据冒险与控制冒险</p></li>
-</ol>
-</section>
-<section id="task-8">
-<h2>Task 8<a class="headerlink" href="#task-8" title="Permalink to this headline">¶</a></h2>
-<p>时间: 0.5 Week</p>
-<ol class="arabic simple">
-<li><p>接入spi模块，从flash取指令</p></li>
-</ol>
-</section>
-<section id="task-9">
-<h2>Task 9<a class="headerlink" href="#task-9" title="Permalink to this headline">¶</a></h2>
-<p>时间: 1 Week(s)</p>
-<ol class="arabic simple">
-<li><p>集成到SoC并进行测试</p></li>
-</ol>
-</section>
 </section>
 
 

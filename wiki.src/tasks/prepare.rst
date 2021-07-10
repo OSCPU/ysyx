@@ -11,4 +11,4 @@
 4、配置开发环境（chisel或verilog），了解Verilator;
 
 .. note::
-	参考资料请见: :ref:`项目概览/参考资料 <_Materials>`
+	参考资料请见: :ref:`项目概览/参考资料 <materials>`
