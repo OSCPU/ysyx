@@ -28,17 +28,23 @@
 仿真验证环境
 ------------
 
-1. Verilator: https://www.veripool.org/verilator/
+| 1. Verilator:
+|   https://www.veripool.org/verilator/
 
-2. RISC-V工具链可以通过apt-get一键安装
+| 2. RISC-V工具链可以通过apt-get一键安装
 
-3. 模拟器NEMU https://github.com/NJU-ProjectN/nemu
+| 3. 模拟器NEMU
+|   https://github.com/NJU-ProjectN/nemu
 
-4. 裸机运行时环境AM https://github.com/NJU-ProjectN/nexus-am
+| 4. 裸机运行时环境AM
+|   https://github.com/NJU-ProjectN/nexus-am
 
-5. 差分测试资料 Yu, EasyDiff: An Effective and Efficient Framework for Processor Verification, CRVF 2019, https://crvf2019.github.io/pdf/14.pdf
+| 5. 差分测试资料
+|   Yu, EasyDiff: An Effective and Efficient Framework for Processor Verification, CRVF 2019
+|   https://crvf2019.github.io/pdf/14.pdf
 
-6. 2018年龙芯杯南京大学二队决赛答辩报告 http://www.nscscc.org/a/wangjie/NSCSCC2018/2018/1010/46.html
+| 6. 2018年龙芯杯南京大学二队决赛答辩报告
+|   http://www.nscscc.org/a/wangjie/NSCSCC2018/2018/1010/46.html
 
 RISC-V
 ------------
