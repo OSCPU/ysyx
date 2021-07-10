@@ -1,0 +1,20 @@
+#_notice > div{
+	width: 80vw;
+	margin: 1em 0;
+	padding: 0;
+}
+
+#_notice > div > div{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding: 0.2em;
+}
+
+#_notice > div > .title{
+	background-color: hsl(0, 80%, 40%);
+}
+
+#_notice > div > .title.red{
+	background-color: hsl(0, 80%, 40%);
+}

@@ -1,0 +1,141 @@
+{
+	"2021-07-07_Startup": {
+		"Detail_Page": true,
+		"Time_Start" : "21:00",
+		"Tag"        : "讲座",
+		"Topic"      : "一生一芯<sup>3rd</sup> 启动会",
+		"Host"       : ["解壁伟"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "1PU4y1V7X3[P3]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=3"
+		}
+	},
+	"2021-07-09_Verilator": {
+		"Detail_Page": true,
+		"Time_Start" : "21:00",
+		"Tag"        : "讲座",
+		"Topic"      : "Verilator 的介绍",
+		"Host"       : ["洪志博"],
+		"shared_files"  :[
+			"install_verilator.sh",
+			"verilator_4_204_amd64.deb"
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "1PU4y1V7X3[P5]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=5"
+		}
+	},
+	"2021-07-10_QA_Session": {
+		"Detail_Page": false,
+		"Time_Start" : "19:00",
+		"Tag"        : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["杨烨", "王嵩岳", "潘星雨", "桑乾龙"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-07-12_Single_Period_Processor": {
+		"Detail_Page": true,
+		"Time_Start" : "19:00",
+		"Tag"        : "讲座",
+		"Topic"      : "单周期处理器介绍",
+		"Host"       : ["薛臻"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-07-14_QA_Session": {
+		"Detail_Page": false,
+		"Time_Start" : "19:00",
+		"Tag"        : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["薛臻", "周聪", "肖天海"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-07-16_Inspection": {
+		"Detail_Page": false,
+		"Time_Start" : "19:00",
+		"Tag"        : "检查",
+		"Topic"      : "进度汇报",
+		"Host"       : ["洪志博", "夏斌", "王唯一", "吴莹", "杨浩泽", "郭明鑫"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-09-05_Deadline": {
+		"Detail_Page": false,
+		"Time_Start" : "19:00",
+		"Tag"        : "节点",
+		"Topic"      : "Soc 对接",
+		"Host"       : ["TBD"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-09-18_Deadline": {
+		"Time_Start" : "19:00",
+		"Tag"        : "节点",
+		"Topic"      : "代码提交",
+		"Host"       : ["TBD"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	}
+}
