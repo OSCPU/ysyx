@@ -62,8 +62,8 @@
 		"Host"       : ["薛臻"],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
-			"ID"   : "",
-			"URL"  : ""
+			"ID"   : "876 661 728",
+			"URL"  : "https://meeting.tencent.com/s/srQwSHOTPrET"
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
@@ -79,8 +79,8 @@
 		"Host"       : ["薛臻", "周聪", "肖天海"],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
-			"ID"   : "",
-			"URL"  : ""
+			"ID"   : "299 408 304",
+			"URL"  : "https://meeting.tencent.com/s/cZCxS6CtRQXT"
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
