@@ -71,6 +71,23 @@
 			"URL"  : ""
 		}
 	},
+	"2021-07-13_AM_Difftest": {
+		"Detail_Page": false,
+		"Time_Start" : "19:00",
+		"Tag"        : "讲座",
+		"Topic"      : "AM + Difftest 环境介绍",
+		"Host"       : ["余子濠"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "886 435 722",
+			"URL"  : "https://meeting.tencent.com/s/SJ2KeVdUW2DE"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-07-14_QA_Session": {
 		"Detail_Page": false,
 		"Time_Start" : "19:00",
@@ -94,6 +111,23 @@
 		"Tag"        : "检查",
 		"Topic"      : "进度汇报",
 		"Host"       : ["洪志博", "夏斌", "王唯一", "吴莹", "杨浩泽", "郭明鑫"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-07-17_Git_Intro": {
+		"Detail_Page": false,
+		"Time_Start" : "19:00",
+		"Tag"        : "讲座",
+		"Topic"      : "Git 介绍",
+		"Host"       : ["唐浩晋"],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "",
