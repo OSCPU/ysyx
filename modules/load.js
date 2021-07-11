@@ -48,7 +48,7 @@ Array.from(document.getElementsByTagName("module")).forEach(module => {
 							event.Detail_Page &&
 							`<a class="button plain" href="/ysyx/lectures/${key}/">了解详情</a>` || '',
 							event.LiveMeeting.URL.trim() &&
-							`<a class="button enter_meeting" href="${event.LiveMeeting.URL.trim}" target="_blank">进入会议</a>` || ''
+							`<a class="button enter_meeting" href="${event.LiveMeeting.URL.trim()}" target="_blank">进入会议</a>` || ''
 						].join(''),
 						badge = compare_date(today(), key) == 0 && ` <sup class="badge">Today</sup>` || '',
 						date = key.split("_")[0].split("-").map(d => parseInt(d));
