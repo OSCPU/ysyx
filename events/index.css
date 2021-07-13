@@ -1,0 +1,78 @@
+/* Suppress body scrollbar */
+html::-webkit-scrollbar{
+	display: none;
+}
+html{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.TitleBar {
+	text-align: left;
+	padding: 0.3em 1em;
+	margin: 1em 0;
+	user-select: none;
+	cursor: pointer;
+	position: relative;
+	background-color: #FFFD;
+	border-bottom: 2px solid #AAA;
+	box-sizing: border-box;
+}
+
+.TitleBar:hover{
+	background-color: #EEED;
+}
+
+.TitleBar:active{
+	background-color: #EEEE;
+}
+
+.TitleBar i {
+	font-size: 1.2em;
+	position: absolute;
+	left: 0;
+	top: 0.3em;
+}
+
+.TitleBar.Fixed{
+	position: fixed !important;
+	margin: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.TitleBar.Bottom{
+	position: absolute !important;
+	margin: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.eventList{
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+}
+
+.eventList.fold module{
+	display: none;
+}
+
+.eventList.fold .codicon-chevron-down{
+	display: none;
+}
+
+.eventList.expand .codicon-chevron-right{
+	display: none;
+}
+
+.eventList.fold module,
+.eventList.fold .Fixed,
+.eventList.fold .Bottom,
+.eventList.Top .TitleBar.Fixed,
+.eventList.Top .TitleBar.Bottom,
+.eventList.Middle .TitleBar.Bottom,
+.eventList.Bottom .TitleBar.Fixed{
+	display: none;
+}

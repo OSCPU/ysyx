@@ -1,0 +1,76 @@
+.header{
+	display: flex;
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+	font-weight: 200;
+	vertical-align: bottom;
+	flex-wrap: wrap;
+}
+
+.header span[flex]{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: right;
+	margin: 0;
+}
+
+.header a{
+	display: flex;
+	margin: 0.3em 0.6em 0;
+	padding: 0.3em 0;
+	line-height: 1em;
+	flex-wrap: wrap;
+	flex-direction: row;
+	user-select: none;
+}
+.header a.link_current{
+	cursor: initial !important;
+}
+.header a.link_current,
+.header a.link {
+	font-weight: 300;
+	line-height: 1em;
+	cursor: pointer;
+	text-decoration: none;
+	border-bottom: 2px solid #ffffff00;
+}
+.header a.link_current,
+.header a.link:hover {
+	border-bottom: 2px solid var(--accent);
+}
+.header a.link:active {
+	border-bottom: 2px solid var(--accent);
+}
+
+@media (max-width: 800px) {
+	.header,
+	.header span{
+		flex-direction: column;
+		flex-grow: 0;
+	}
+	.header > a{
+		border-bottom: 2px solid #0006 !important;
+	}
+	.header a{
+		padding: 0.3em 0.2em;
+	}
+	.header span[flex]{
+		justify-content: center;
+	}
+	.header > span a.link_current,
+	.header > span a.link {
+		border-bottom: none !important;
+		border-left: 2px solid #ffffff00;
+	}
+	.header > span a.link_current,
+	.header > span a.link:hover {
+		border-left: 2px solid var(--accent);
+		background-color: #DDD;
+	}
+	.header > span a.link:active {
+		border-left: 2px solid var(--accent);
+		background-color: #DDD;
+	}
+}

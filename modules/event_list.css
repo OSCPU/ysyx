@@ -1,0 +1,43 @@
+.event_entry{
+	display: flex;
+	font-size: 0.8em;
+	padding: 0.5em;
+	border-radius: 1em;
+	width: 100%;
+	flex-wrap: nowrap;
+	margin: 1em 0;
+	justify-content: left;
+}
+
+.event_entry .content{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	flex-direction: row;
+	padding-left: 1em;
+}
+
+.event_entry .content > *{
+	box-sizing: content-box;
+	/* margin: 0.5em; */
+}
+
+.event_entry:hover{
+	background-color: #EEE;
+}
+
+.event_entry > span{
+	text-align: left;
+}
+
+a.button.enter_meeting{
+	border: 1px solid var(--accent);
+	background-color: var(--accent);
+	color: white;
+}
+
+a.button.view_playback{
+	border: 1px solid #ff5c7c;
+	background-color: #ff5c7c;
+	color: white;
+}

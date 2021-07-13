@@ -3,23 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>一生一芯计划</title>
+		<link rel="stylesheet" type="text/css" href="/ysyx/res/global.css">
 		<link rel="stylesheet" type="text/css" href="./index.css">
 		<script src="./index.js"></script>
 	</head>
 	<body>
-		<module id="_message"></module>
+		<module role="message"></module>
 		<center>
-		<module id="_header"></module>
-		<div class="contentWrapper header">
-			<span style="font-weight: 500;">一生一芯计划</span>
-			<span style="flex-grow: 1;"></span>
-			<a class="link" href="/ysyx/wiki/">WIKI</a>
-			<a class="link" href="/ysyx/wiki/tasks/prepare.html">任务列表</a>
-			<a class="link" href="https://docs.qq.com/sheet/DZG1NVExCWXpMaER6" target="_blank">进度记录</a>
-			<a class="link" href="lectures/2021-07-07_Startup/">讲座列表</a>
-			<a class="link disabled">团队成员</a>
-			<a class="link" href="/ysyx/wiki/about/enroll.html">报名</a>
-		</div>
+		<module role="header"></module>
 		<!------------------------------------>
 		<div class="contentWrapper poster">
 			<span style="flex: 0; flex-grow: 1;"></span>
@@ -37,11 +28,21 @@
 			<span style="flex: 0; flex-grow: 1;"></span>
 		</div>
 		<!------------------------------------>
-		<div class="contentWrapper" style="display: flex; font-size: 1.4em; font-weight: 400; flex-direction: row; justify-content: center;" id="keyNavi">
-			<a class="button task_list" href="/ysyx/wiki/tasks/prepare.html">任务列表</a>
-			<a class="button progress_list" href="https://docs.qq.com/sheet/DZG1NVExCWXpMaER6">进度记录</a>
-			<a class="button submit_issues disabled"><i class="codicon codicon-github-inverted"></i><span style="display: inline-block; width: 1.5em;"></span>讨论区</a>
-			<a class="button how_to_enroll" href="/ysyx/wiki/about/enroll.html">如何报名</a>
+		<div class="contentWrapper" id="keyNavi">
+			<span>
+				<span style="flex-grow: 1;"></span>
+				<a class="button task_list" href="/ysyx/wiki/tasks/prepare.html">任务列表</a>
+				<span style="flex-grow: 2;"></span>
+				<a class="button progress_list" href="https://docs.qq.com/sheet/DZG1NVExCWXpMaER6">进度记录</a>
+				<span style="flex-grow: 1;"></span>
+			</span>
+			<span>
+				<span style="flex-grow: 1;"></span>
+				<a class="button submit_issues disabled"><i class="codicon codicon-github-inverted"></i><span style="display: inline-block; width: 1.3em;"></span>讨论区</a>
+				<span style="flex-grow: 2;"></span>
+				<a class="button how_to_enroll" href="/ysyx/wiki/about/enroll.html">参与项目</a>
+				<span style="flex-grow: 1;"></span>
+			</span>
 		</div>
 		<!------------------------------------>
 		<div style="width: 100%; padding: 2em 0;">
@@ -50,7 +51,7 @@
 				<span style="display: block; width: 100%; text-align: left; font-weight: 500; color: #666; margin-bottom: 1em; font-size: 1.4em;">
 					近期活动
 				</span>
-				<module id="_recent_schedule"></module>
+				<module role="recent_schedule"></module>
 			</div>
 		</div>
 		<!------------------------------------>
@@ -130,7 +131,7 @@
 			</div>
 		</div>
 		<!------------------------------------>
-		<module id="_footer"></module>
+		<module role="footer"></module>
 		</center>
 		<script src="/ysyx/modules/load.js"></script>
 	</body>

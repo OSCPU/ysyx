@@ -1,10 +1,26 @@
-@import "res/global.css";
+#keyNavi{
+	display: flex;
+	font-size: 1.4em;
+	font-weight: 400;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 36em;
+}
 
-.contentWrapper{
+#keyNavi > span{
+	display: flex;
+	flex-grow: 1;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#keyNavi > span > a{
 	display: block;
-	margin: auto;
-	width: 80vw;
-	max-width: 1200px;
+	box-sizing: border-box;
+	margin: 0.4em 0.2em;
+	height: 1.9em;
 }
 
 .collateral{
@@ -12,22 +28,6 @@
 	margin: 2em;
 	/* filter: saturate(0); */
 	/* opacity: 0.6; */
-}
-
-div.header{
-	display: flex;
-	margin: 0;
-	padding: 1em 0;
-	text-align: center;
-	font-weight: 200;
-	vertical-align: bottom;
-}
-
-div.header > *{
-	display: flex;
-	margin: 0 1em;
-	padding: 0.2em 0;
-	line-height: 1em;
 }
 
 div.poster{
@@ -42,27 +42,6 @@ div.poster > *{
 	display: flex;
 	margin: 1em 0;
 	line-height: 120%;
-}
-
-a.button{
-	/* flex-shrink: 1; */
-	text-decoration: none;
-	border-radius: 2em;
-	font-size: 1em;
-	font-weight: 400;
-	height: 1.2em;
-	line-height: 1.2em;
-	padding: 0.3em 0.8em;
-	user-select: none;
-	cursor: pointer;
-	margin: 0 1em;
-}
-
-a.button.plain{
-	border: 1px solid #FFF0;
-	color:#666;
-	text-decoration: underline;
-	margin: 0 0em;
 }
 
 a.button.task_list,
@@ -82,13 +61,12 @@ a.button.submit_issues{
 a.button.submit_issues i{
 	position: absolute;
 	display: block;
-	font-size: 1.6em;
-	left: 0.15em;
+	font-size: 1.56em;
+	left: 0.1em;
 	top: 0.1em;
 }
 
-a.button.how_to_enroll,
-a.button.enter_meeting{
+a.button.how_to_enroll{
 	border: 1px solid var(--accent);
 	background-color: var(--accent);
 	color: white;
@@ -100,37 +78,6 @@ a.button:hover{
 
 a.button:active{
 	filter: brightness(1.2);
-}
-
-.event_entry{
-	display: flex;
-	padding: 0.5em;
-	border-radius: 1em;
-	width: 100%;
-	flex-wrap: nowrap;
-	margin: 1em 0;
-	justify-content: left;
-}
-
-.event_entry .content{
-	display: flex;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	flex-direction: row;
-	padding-left: 1em;
-}
-
-.event_entry .content > *{
-	box-sizing: content-box;
-	/* margin: 0.5em; */
-}
-
-.event_entry:hover{
-	background-color: #EEE;
-}
-
-.event_entry > span{
-	text-align: left;
 }
 
 sup.badge{

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>[一生一芯]</title>
+		<link rel="stylesheet" type="text/css" href="/ysyx/res/global.css">
+		<link rel="stylesheet" type="text/css" href="/ysyx/events/events.css">
+	</head>
+	<body style="overflow: hidden;">
+		<module role="message"></module>
+		<center>
+		<module role="header"></module>
+		<!------------------------------------>
+		<div id="ContentMain" class="contentWrapper">
+			<!------------------------------------>
+			<div id="navi" style="width: 12em">
+				<div style="width: 100%; display: flex; justify-content: space-between; padding: 0.5em; box-sizing: border-box;">
+					<span style="font-weight: 400; border-bottom: 2px solid #111;">活动列表</span>
+					<a href='/ysyx/events/' class="codicon codicon-expand-all" style="font-size: 1.2em; padding-right: 0.5em; padding-top: 0.1em;"></a>
+				</div>
+				<module role="event_list_navi"></module>
+			</div>
+			<!------------------------------------>
+			<div id="article" style="width: 0; flex-grow: 1; text-align: left;">
+				<module role="event_info_article"></module>
+				<span id="article_body" style="display: block;border-top: 2px gray dashed; text-align: left;"></span>
+				<span style="display: block; width: 100%; text-align: center; padding: 1em 0; font-weight: 600; color: #666; font-size: 0.8em;" >
+					版权所有: 一生一芯项目团队<br>
+					网站开发维护: 张宇轩
+				</span>
+			</div>
+			<!------------------------------------>
+			<div id="cards">
+				<module role="event_info_cards"></module>
+			</div>
+		</div>
+		<!------------------------------------>
+		</center>
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+		<script src="/ysyx/modules/load.js"></script>
+		<script>
+			// Auto resize content container
+			ContentMain = document.getElementById("ContentMain");
+			function fit(){
+				ContentMain.style.height = window.innerHeight - ContentMain.offsetTop + "px";
+			}
+			window.addEventListener('resize', fit);
+			fit();
+			setInterval(fit, 500);
+			// Render Markdown Article
+			fetch(`${EID}/index.md`)
+				.then(response => {
+					if (response.ok)
+						return response.text();
+					else
+						throw Error('')
+				})
+				.then(md_src =>{
+					document.getElementById("article_body").innerHTML =marked(md_src);
+				})
+				.catch(e => {
+					document.getElementById("article_body").innerHTML = '<h3>暂无详情信息和FAQ</h3>';
+				})
+		</script>
+	</body>
+</html>

@@ -15,29 +15,43 @@ body{
 	overflow-x: hidden;
 }
 
-a.link_current,
-a.link {
-	font-weight: 300;
-	line-height: 1em;
-	cursor: pointer;
-	text-decoration: none;
-	border-bottom: 2px solid #ffffff00;
-}
-
-a.link_current,
-a.link:hover {
-	border-bottom: 2px solid var(--accent);
-}
-
-a.link:active {
-	border-bottom: 2px solid var(--accent);
-}
-
-a.link:link {
-}
-
 a{
 	color: inherit;
+}
+
+a.button{
+	/* flex-shrink: 1; */
+	text-decoration: none;
+	border-radius: 2em;
+	font-size: 1em;
+	font-weight: 400;
+	height: 1.2em;
+	line-height: 1.2em;
+	padding: 0.3em 0.8em;
+	user-select: none;
+	cursor: pointer;
+	margin: 0 1em;
+}
+
+a.button.plain{
+	border: 1px solid #FFF0;
+	color:#666;
+	text-decoration: underline;
+	margin: 0 0em;
+}
+
+margin[vertical]{
+	display: block;
+	width: 100%;
+	height: 0;
+	margin: var(--size) 0;
+}
+
+margin[horizontal]{
+	display: block;
+	width: 0;
+	height: 100%;
+	margin: 0 var(--size);
 }
 
 .banner{
@@ -50,8 +64,15 @@ a{
 }
 
 .banner b{
-	color:  #FFF;
+	color: #FFF;
 	font-weight: 600;
+}
+
+.contentWrapper{
+	display: block;
+	margin: auto;
+	width: 80vw;
+	max-width: 1200px;
 }
 
 .disabled{

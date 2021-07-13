@@ -1,0 +1,127 @@
+@import "../index.css";
+
+@media (max-width: 800px){
+	#navi{display: none;}
+	#ContentMain{
+		flex-direction: column-reverse !important;
+		justify-content: center !important;
+		overflow-y: scroll !important;
+	}
+}
+
+#ContentMain{
+	/* Dynamic Rendering */
+	height: 0;
+	overflow: hidden;
+	/* Flex Layout */
+	display: flex;
+	flex-wrap: nowrap;
+	/* Absolute positioned elem container */
+	position: relative;
+}
+
+*{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar{
+	display: none;
+}
+
+#ContentMain > *{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	text-overflow: ellipsis;
+	/* Flex Layout */
+	flex-shrink: 0;
+}
+
+#navi{
+	background-color: #EEE;
+	width: 16em;
+	padding: 0;
+}
+
+#navi_back{
+	font-size: 0.6em;
+	position: absolute;
+	display: block;
+	left: 0.5em;
+	bottom: 0.5em;
+	padding: 0.3em 1em;
+	border-radius: 0.3em;
+	background-color: var(--accent);
+	color: white;
+}
+
+#article{
+	padding: 0 1em;
+}
+
+#cards{
+	width: 18em;
+	flex-shrink: none;
+	flex-grow: none;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-x: visible;
+	overflow-y: scroll;
+}
+
+#cards > module > *{
+	box-sizing: border-box;
+	width: 16em;
+	margin-bottom: 1.2em;
+	border-radius: 4px;
+	box-shadow: 4px 4px 12px 0px rgba(0,0,0,0.3);
+}
+
+#cards > module > a{
+	display: flex;
+	padding: 0.4em 0.6em;
+	text-decoration: none;
+	overflow-x: hidden;
+	flex-direction: row;
+	justify-content: left;
+	vertical-align: center;
+}
+
+#cards > module > a:hover,
+#cards > module > a:active{
+	filter: brightness(1.1);
+}
+
+#cards > module > a:link{
+}
+
+#cards > module > a > *{
+	display: flex;
+}
+#cards > module > a > :not(.codicon){
+	font-weight: lighter;
+	pointer-events: none;
+}
+#cards > module > a > .codicon{
+	font-size: 1.2em;
+	pointer-events: none;
+	margin-right: 0.3em;
+}
+
+#navi > module > a{
+	display: flex;
+	font-size: 0.9em;
+	padding: 0.5em 0.8em;
+	text-decoration: none;
+}
+#navi > module > a.current{
+	font-weight: 600;
+	pointer-events: none;
+}
+#navi > module > a:hover{
+	background-color: #DDD;
+}
+#navi > module > a:active{
+	background-color: #DDD;
+	font-weight: 600;
+}

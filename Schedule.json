@@ -1,30 +1,11 @@
 {
 	"2021-07-07_Startup": {
-		"Detail_Page": true,
 		"Time_Start" : "21:00",
-		"Tag"        : "讲座",
+		"Type"       : "讲座",
 		"Topic"      : "一生一芯<sup>3rd</sup> 启动会",
 		"Host"       : ["解壁伟"],
-		"LiveMeeting": {
-			"Title": "会议信息 (腾讯会议)",
-			"ID"   : "",
-			"URL"  : ""
-		},
-		"PlayBack"   : {
-			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "1PU4y1V7X3[P3]",
-			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=3"
-		}
-	},
-	"2021-07-09_Verilator": {
-		"Detail_Page": true,
-		"Time_Start" : "21:00",
-		"Tag"        : "讲座",
-		"Topic"      : "Verilator 的介绍",
-		"Host"       : ["洪志博"],
-		"shared_files"  :[
-			"install_verilator.sh",
-			"verilator_4_204_amd64.deb"
+		"shared_files":[
+			"第三期“一生一芯”启动会.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
@@ -33,14 +14,33 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "1PU4y1V7X3[P5]",
+			"ID"   : "1PU4y1V7X3[P3]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=3"
+		}
+	},
+	"2021-07-09_Verilator": {
+		"Time_Start" : "21:00",
+		"Type"       : "讲座",
+		"Topic"      : "Verilator 的介绍",
+		"Host"       : ["洪志博"],
+		"shared_files"  :[
+			"verilator_installer.tar.gz",
+			"Verilator+gtkwave快速上手教程.pdf"
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "1PU4y1V7X3[P5]",
 			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=5"
 		}
 	},
 	"2021-07-10_QA_Session": {
-		"Detail_Page": false,
 		"Time_Start" : "19:00",
-		"Tag"        : "答疑",
+		"Type"       : "答疑",
 		"Topic"      : "Q&A Session",
 		"Host"       : ["杨烨", "王嵩岳", "潘星雨", "桑乾龙"],
 		"LiveMeeting": {
@@ -50,14 +50,13 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
+			"ID"   : "",
 			"URL"  : ""
 		}
 	},
 	"2021-07-12_Single_Period_Processor": {
-		"Detail_Page": true,
 		"Time_Start" : "19:00",
-		"Tag"        : "讲座",
+		"Type"       : "讲座",
 		"Topic"      : "单周期处理器介绍",
 		"Host"       : ["薛臻"],
 		"LiveMeeting": {
@@ -67,16 +66,19 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "BV1PU4y1V7X3[P6]",
+			"ID"   : "BV1PU4y1V7X3[P6]",
 			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=6"
 		}
 	},
 	"2021-07-13_AM_Difftest": {
-		"Detail_Page": false,
 		"Time_Start" : "19:00",
-		"Tag"        : "讲座",
+		"Type"       : "讲座",
 		"Topic"      : "AM + Difftest 环境介绍",
 		"Host"       : ["余子濠"],
+		"shared_files"  :[
+			"AM编译过程.pdf",
+			"AM裸机运行时环境.pdf"
+		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "886 435 722",
@@ -84,14 +86,13 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
-			"URL"  : ""
+			"ID"   : "BV1PU4y1V7X3[P7]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=7"
 		}
 	},
 	"2021-07-14_Chisel": {
-		"Detail_Page": false,
-		"Time_Start" : "19:00",
-		"Tag"        : "答疑",
+		"Time_Start" : "15:00",
+		"Type"       : "讲座",
 		"Topic"      : "Chisel 入门",
 		"Host"       : ["杨烨"],
 		"LiveMeeting": {
@@ -101,14 +102,13 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
+			"ID"   : "",
 			"URL"  : ""
 		}
 	},
 	"2021-07-14_QA_Session": {
-		"Detail_Page": false,
 		"Time_Start" : "19:00",
-		"Tag"        : "答疑",
+		"Type"       : "答疑",
 		"Topic"      : "Q&A Session",
 		"Host"       : ["薛臻", "周聪", "肖天海"],
 		"LiveMeeting": {
@@ -118,14 +118,13 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
+			"ID"   : "",
 			"URL"  : ""
 		}
 	},
 	"2021-07-16_Inspection": {
-		"Detail_Page": false,
 		"Time_Start" : "19:00",
-		"Tag"        : "检查",
+		"Type"       : "检查",
 		"Topic"      : "进度汇报",
 		"Host"       : ["洪志博", "夏斌", "王唯一", "吴莹", "杨浩泽", "郭明鑫"],
 		"LiveMeeting": {
@@ -135,14 +134,13 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
+			"ID"   : "",
 			"URL"  : ""
 		}
 	},
 	"2021-07-17_Git_Intro": {
-		"Detail_Page": false,
 		"Time_Start" : "19:00",
-		"Tag"        : "讲座",
+		"Type"       : "讲座",
 		"Topic"      : "Git 介绍",
 		"Host"       : ["唐浩晋"],
 		"LiveMeeting": {
@@ -152,14 +150,13 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
+			"ID"   : "",
 			"URL"  : ""
 		}
 	},
 	"2021-09-05_Deadline": {
-		"Detail_Page": false,
 		"Time_Start" : "19:00",
-		"Tag"        : "节点",
+		"Type"       : "节点",
 		"Topic"      : "Soc 对接",
 		"Host"       : ["TBD"],
 		"LiveMeeting": {
@@ -169,13 +166,13 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
+			"ID"   : "",
 			"URL"  : ""
 		}
 	},
 	"2021-09-18_Deadline": {
 		"Time_Start" : "19:00",
-		"Tag"        : "节点",
+		"Type"       : "节点",
 		"Topic"      : "代码提交",
 		"Host"       : ["TBD"],
 		"LiveMeeting": {
@@ -185,7 +182,7 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"BV"   : "",
+			"ID"   : "",
 			"URL"  : ""
 		}
 	}

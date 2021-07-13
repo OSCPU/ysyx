@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>[一生一芯]活动列表</title>
+		<link rel="stylesheet" type="text/css" href="/ysyx/res/global.css">
+		<link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+	<body>
+		<module role="message"></module>
+		<center>
+		<!------------------------------------>
+		<div class="contentWrapper">
+			<module role="header"></module>
+		</div>
+		<!------------------------------------>
+		<div class="contentWrapper eventList fold Top" id="event_completed">
+				<div class="TitleBar Top" onclick="flip('event_completed')">
+					<i class="codicon codicon-chevron-down"></i>
+					<i class="codicon codicon-chevron-right"></i>
+					&nbsp;已结束活动
+				</div>
+				<div class="TitleBar Fixed" onclick="flip('event_completed')">
+					<i class="codicon codicon-chevron-down"></i>
+					<i class="codicon codicon-chevron-right"></i>
+					&nbsp;已结束活动
+				</div>
+				<div class="TitleBar Bottom" onclick="flip('event_completed')">
+					<i class="codicon codicon-chevron-down"></i>
+					<i class="codicon codicon-chevron-right"></i>
+					&nbsp;已结束活动
+				</div>
+				<module role="event_list_completed"></module>
+		</div>
+		<!------------------------------------>
+		<div class="contentWrapper eventList expand Top" id="event_planned">
+				<div class="TitleBar Top" onclick="flip('event_planned')">
+					<i class="codicon codicon-chevron-down"></i>
+					<i class="codicon codicon-chevron-right"></i>
+					&nbsp;计划的活动
+				</div>
+				<div class="TitleBar Fixed" onclick="flip('event_planned')">
+					<i class="codicon codicon-chevron-down"></i>
+					<i class="codicon codicon-chevron-right"></i>
+					&nbsp;计划的活动
+				</div>
+				<div class="TitleBar Bottom" onclick="flip('event_planned')">
+					<i class="codicon codicon-chevron-down"></i>
+					<i class="codicon codicon-chevron-right"></i>
+					&nbsp;计划的活动
+				</div>
+				<module role="event_list_planned"></module>
+		</div>
+		<!------------------------------------>
+		<margin style="--size: 2em" vertical></margin>
+		<module role="footer"></module>
+		</center>
+		<script src="/ysyx/modules/load.js"></script>
+		<script>
+			function stick(target){
+				var Top = target.offsetTop - window.scrollY,
+					Bottom = target.offsetHeight + target.offsetTop - TitleBarHeight - window.scrollY;
+				if (Top > 0)
+					target.className = target.className.replace(/(Top|Middle|Bottom)/g, 'Top');
+				else if (Bottom < 0)
+					target.className = target.className.replace(/(Top|Middle|Bottom)/g, 'Bottom');
+				else
+					target.className = target.className.replace(/(Top|Middle|Bottom)/g, 'Middle');
+			}
+			window.addEventListener("scroll",
+				function(){
+					stick(Completed_elem);
+					stick(Planned_elem);
+				}
+			);
+			function flip(id){
+				elem = document.getElementById(id);
+				if (elem.className.split(" ").indexOf("expand") > 0){
+					elem.className = elem.className.replace(/expand/g, 'fold');
+					window.scrollTo({
+						top:  elem.offsetTop,
+						behavior: "smooth"
+					})
+				}
+				else
+					elem.className = elem.className.replace(/fold/g, 'expand');
+			}
+			Planned_elem   = document.getElementById("event_planned"  );
+			Completed_elem = document.getElementById("event_completed");
+			Array.from(document.getElementsByClassName("Fixed")).forEach(elem => {
+				elem.style.width = document.getElementsByClassName("contentWrapper")[0].offsetWidth + "px";
+			});
+			TitleBarHeight = document.getElementById("event_completed").children[0].offsetHeight;
+		</script>
+	</body>
+</html>
