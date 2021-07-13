@@ -38,7 +38,7 @@
 
 欢迎加入我们, 从零开始制作一颗自己的 RISC-V CPU.
 
-请发送简历到 `报名邮箱 <opensource-talents@pcl.ac.cn>`_ (opensource-talents@pcl.ac.cn) 并注明 "报名参与一生一芯学习". 
+ `报名入口 <https://www.wenjuan.com/s/UZBZJvSXCv/>`_ (https://www.wenjuan.com/s/UZBZJvSXCv/).
 
 .. important::
 
