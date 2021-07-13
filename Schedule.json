@@ -88,6 +88,23 @@
 			"URL"  : ""
 		}
 	},
+	"2021-07-14_Chisel": {
+		"Detail_Page": false,
+		"Time_Start" : "19:00",
+		"Tag"        : "答疑",
+		"Topic"      : "Chisel 入门",
+		"Host"       : ["杨烨"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "369 797 386",
+			"URL"  : "https://meeting.tencent.com/s/nNI89YPdsO16"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"BV"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-07-14_QA_Session": {
 		"Detail_Page": false,
 		"Time_Start" : "19:00",
