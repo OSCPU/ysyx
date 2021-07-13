@@ -30,6 +30,7 @@
 	:caption: 项目概览
 	:maxdepth: 2
 
+	about/procedure
 	about/enroll
 	about/recruit
 	about/materials

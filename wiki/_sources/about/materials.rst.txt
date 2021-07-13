@@ -14,7 +14,7 @@
 
 数字电路: 网上教材和公开课很多，同学们可自行去找并有针对性地学习，目标是了解和掌握【时序的概念、寄存器、锁存器等基础概念，学会Verilog编程】
 
-组成原理: 《数字逻辑与计算机组成》袁春风 
+组成原理: 《数字逻辑与计算机组成》袁春风
 
 体系结构 (基础) : 《计算机组成与设计 硬件/软件接口》
 
@@ -31,12 +31,12 @@
 | 1. Verilator:
 |   https://www.veripool.org/verilator/
 
-| 2. RISC-V工具链可以通过apt-get一键安装
+| 2. RISC-V 工具链可以通过 apt-get 一键安装
 
-| 3. 模拟器NEMU
+| 3. 模拟器 NEMU
 |   https://github.com/NJU-ProjectN/nemu
 
-| 4. 裸机运行时环境AM
+| 4. 裸机运行时环境 AM
 |   https://github.com/NJU-ProjectN/nexus-am
 
 | 5. 差分测试资料
