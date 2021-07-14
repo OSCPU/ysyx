@@ -77,7 +77,7 @@
 		"Time_Start" : "19:00",
 		"Type"       : "讲座",
 		"Topic"      : "AM 运行环境介绍",
-		"Host"       : ["余子濠"],
+		"Host"       : ["余子濠  陈璐"],
 		"shared_files"  :[
 			"AM编译过程.pdf",
 			"AM裸机运行时环境.pdf"
