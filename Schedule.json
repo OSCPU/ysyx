@@ -98,6 +98,9 @@
 		"Type"       : "讲座",
 		"Topic"      : "Chisel 入门",
 		"Host"       : ["杨烨"],
+		"shared_files":[
+			"chisel入门.pptx"
+		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "369 797 386",
