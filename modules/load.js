@@ -195,19 +195,13 @@ Module.footer = module => {
 		});
 }
 
-Array.from(document.getElementsByTagName("module")).forEach(module => {
-	var role = module.getAttribute('role');
-	if (role in Module)
-		Module[role](module);
-	else
-		console.exception(`Unrecognized module "${role}"`);
-});
-
 function render_event(key, event){
 	var links = [
 			`<a class="button plain" href="/ysyx/events/events.html?EID=${key}">了解详情</a>` || '',
 			event.PlayBack.URL.trim() &&
 			`<a class="button view_playback" href="${event.PlayBack.URL.trim()}" target="_blank">观看回放</a>` ||
+			Array.isArray(event.LiveMeeting) &&
+			`<a class="button enter_meeting" href="/ysyx/events/events.html?EID=${key}">查看分组</a>` ||
 			event.LiveMeeting.URL.trim() &&
 			`<a class="button enter_meeting" href="${event.LiveMeeting.URL.trim()}" target="_blank">进入会议</a>` || ''
 		].join(''),
@@ -231,7 +225,7 @@ function render_event(key, event){
 }
 
 function render_portal_card(key, event){
-	var Title, brand, ID, URL;
+	var brand, data;
 	theme = {
 		tencent_meeting:{
 			ID_Title: "Meeting ID",
@@ -248,15 +242,13 @@ function render_portal_card(key, event){
 	}
 	if  (event.PlayBack.URL != ""){
 		brand = 'bilibili';
-		Title = event.PlayBack.Title;
-		ID    = event.PlayBack.ID;
-		URL   = event.PlayBack.URL;
+		data  = [event.PlayBack];
 	}
-	else if (event.LiveMeeting.URL != ""){
+	else if ((Array.isArray(event.LiveMeeting) && event.LiveMeeting.length) || event.LiveMeeting.URL != ""){
 		brand = 'tencent_meeting';
-		Title = event.LiveMeeting.Title;
-		ID    = event.LiveMeeting.ID;
-		URL   = event.LiveMeeting.URL;
+		data  =  Array.isArray(event.LiveMeeting)
+				 &&  event.LiveMeeting
+				 || [event.LiveMeeting];
 	}
 	else
 		return `
@@ -270,23 +262,23 @@ function render_portal_card(key, event){
 			<a style="display: inline-block; background-color: #888; border-radius: 3px; color: white; padding: 0.5em 1em; text-decoration: none; user-select: none; pointer-events: none;">不可用</a>
 		</span>
 		`
-	return `
+	return data.map(e => `
 	<div style="text-align: left; padding: 0;">
 		<span style=" font-size: 0.8em; display: inline-block; padding-bottom: 1em; background-color: hsl(0, 0%, 97%); text-align: center; border-radius: 4px; overflow: hidden; width: 100%;">
 			<div style="box-sizing: border-box; color: hsl(0, 0%, 20%); background-color: hsl(0, 0%, 90%); width: 100%; padding: 0.5em 1.2em;">
-				<span style="font-size: 1em; font-weight: bold;">${Title}</span>
+				<span style="font-size: 1em; font-weight: bold;">${e.Title}</span>
 			</div>
 			<div></div>
 			<p>${formate_date_time(key, event.Time_Start)}</p>
-			<p>${theme[brand].ID_Title} <span style="display: inline-block; padding: 0.1em 0.4em; border-radius: 0.3em; background-color: #0001; color: #666; font-weight: bold;">${ID}</span></p>
-			<a style="display: inline-block; background-color: ${theme[brand].Accent}; border-radius: 3px; color: white; padding: 0.5em 1em; text-decoration: none; user-select: none;" href="${URL}" target="_blank">${theme[brand].Button}</a>
+			<p>${theme[brand].ID_Title} <span style="display: inline-block; padding: 0.1em 0.4em; border-radius: 0.3em; background-color: #0001; color: #666; font-weight: bold;">${e.ID}</span></p>
+			<a style="display: inline-block; background-color: ${theme[brand].Accent}; border-radius: 3px; color: white; padding: 0.5em 1em; text-decoration: none; user-select: none;" href="${e.URL}" target="_blank">${theme[brand].Button}</a>
 			<p style="line-height: 160%; color: #666; font-size: 0.8em;">
-				<u>${URL}</u>
+				<u>${e.URL}</u>
 			</p>
 			<img src="${theme[brand].Logo}" alt="Logo" style="display: inline-block; height: 1.2em; width: auto; max-width: 12em;">
 		</span>
 	</div>
-	`
+	`.trim()).join('\n');
 }
 
 function render_download_cards(key, event){
@@ -356,3 +348,16 @@ function search_key(key){
 	})
 	return res;
 }
+
+Array.from(document.getElementsByTagName("module")).forEach(module => {
+	var role = module.getAttribute('role');
+	if (role in Module){
+		try {
+			Module[role](module);
+		} catch (error) {
+			console.exception(error);
+		}
+	}
+	else
+		console.exception(`Unrecognized module "${role}"`);
+});

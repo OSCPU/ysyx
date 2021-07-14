@@ -133,11 +133,31 @@
 		"Type"       : "检查",
 		"Topic"      : "进度汇报",
 		"Host"       : ["洪志博", "夏斌", "王唯一", "吴莹", "杨浩泽", "郭明鑫"],
-		"LiveMeeting": {
-			"Title": "会议信息 (腾讯会议)",
-			"ID"   : "",
-			"URL"  : ""
-		},
+		"LiveMeeting": [{
+			"Title": "第一组",
+			"ID"   : "123 456 789",
+			"URL"  : "https://meeting.tencent.com/"
+		},{
+			"Title": "第二组",
+			"ID"   : "123 456 789",
+			"URL"  : "https://meeting.tencent.com/"
+		},{
+			"Title": "第三组",
+			"ID"   : "123 456 789",
+			"URL"  : "https://meeting.tencent.com/"
+		},{
+			"Title": "第四组",
+			"ID"   : "123 456 789",
+			"URL"  : "https://meeting.tencent.com/"
+		},{
+			"Title": "第五组",
+			"ID"   : "123 456 789",
+			"URL"  : "https://meeting.tencent.com/"
+		},{
+			"Title": "第六组",
+			"ID"   : "123 456 789",
+			"URL"  : "https://meeting.tencent.com/"
+		}],
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
 			"ID"   : "",
