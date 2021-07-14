@@ -49,7 +49,7 @@
 }
 ```
 
-报告定稿后请将导出的PDF版报告一并上传到上述目录. 如果条件允许, 还可以提交一份 Markdown 文档, 每个讲座的根目录下名为 `index.md` 的文档将会被自动渲染为详情页正文并展示。
+报告定稿后请将导出的PDF版报告一并上传到上述目录. 如果条件允许, 还可以提交一份 Markdown 文档, 每个讲座对应的目录下名为 `index.md` 的文档将会被自动渲染为详情页正文并展示。
 
 ## Wiki 编译
 
@@ -62,7 +62,7 @@ pip3 install Sphinx sphinx-rtd-theme
 上述PIP包安装完成后, 即可编译wiki, 请注意当前目录为 OSCPU/ysyx (Repo 根目录):
 
 ```sh
-sphinx-build -b html wiki.src wiki
+.../ysyx/ % sphinx-build -b html wiki.src wiki
 ```
 
 ## 网站内容勘误
