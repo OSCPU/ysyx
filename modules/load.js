@@ -343,11 +343,9 @@ function date_time(){
 		   ].join('');
 }
 
-Month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
 function formate_date_time(key, time){
 	var date = key.split('_')[0].split('-').map(n => parseInt(n));
-	return `${Month[date[1]]} ${date[2]}, ${date[0]} ${time}, CST`;
+	return `${date[0]} 年 ${date[1]} 月 ${date[2]} 日 ${time} CST`;
 }
 
 function search_key(key){
