@@ -1,9 +1,9 @@
 [
 	{
-		"content" : "下一场报告 <b>\"Chisel 入门\"</b> 计划于 <b>7月14日15:00(CST)</b> 进行.",
+		"content" : "下一次答疑 <b>\"Q&A Session\"</b> 计划于 <b>7月14日19:00(CST)</b> 进行.",
 		"shortcut": {
-			"详细信息": "/ysyx/events/events.html?EID=2021-07-14_Chisel",
-			"加入会议": "https://meeting.tencent.com/s/nNI89YPdsO16"
+			"详细信息": "/ysyx/events/events.html?EID=2021-07-14_QA_Session",
+			"加入会议": "https://meeting.tencent.com/s/cZCxS6CtRQXT"
 		},
 		"color"   : "var(--accent-bright)"
 	}
