@@ -73,7 +73,7 @@
 	"2021-07-13_AM_Difftest": {
 		"Time_Start" : "19:00",
 		"Type"       : "讲座",
-		"Topic"      : "AM + Difftest 环境介绍",
+		"Topic"      : "AM 运行环境介绍",
 		"Host"       : ["余子濠"],
 		"shared_files"  :[
 			"AM编译过程.pdf",
@@ -110,7 +110,7 @@
 		"Time_Start" : "19:00",
 		"Type"       : "答疑",
 		"Topic"      : "Q&A Session",
-		"Host"       : ["薛臻", "周聪", "肖天海"],
+		"Host"       : ["薛臻", "杨烨", "肖天海"],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "299 408 304",
