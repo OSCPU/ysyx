@@ -59,6 +59,9 @@
 		"Type"       : "讲座",
 		"Topic"      : "单周期处理器介绍",
 		"Host"       : ["薛臻"],
+		"shared_files":[
+			"单周期RISCV处理器介绍.pdf"
+		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "876 661 728",
