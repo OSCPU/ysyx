@@ -164,11 +164,11 @@
 			"URL"  : ""
 		}
 	},
-	"2021-07-14_Difftest": {
+	"2021-07-17_Difftest": {
 		"Time_Start" : "19:00",
 		"Type"       : "讲座",
-		"Topic"      : "Difftest 介绍",
-		"Host"       : ["余子濠"],
+		"Topic"      : "Difftest 处理器验证方法介绍",
+		"Host"       : ["余子濠", "王华强"],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "840 945 136",
