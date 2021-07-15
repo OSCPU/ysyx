@@ -164,15 +164,31 @@
 			"URL"  : ""
 		}
 	},
-	"2021-07-17_Git_Intro": {
+	"2021-07-14_Difftest": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "Difftest 介绍",
+		"Host"       : ["余子濠"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "840 945 136",
+			"URL"  : "https://meeting.tencent.com/s/bdM4HUyMShlL"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-07-18_Git_Intro": {
 		"Time_Start" : "19:00",
 		"Type"       : "讲座",
 		"Topic"      : "Git 介绍",
 		"Host"       : ["唐浩晋"],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
-			"ID"   : "",
-			"URL"  : ""
+			"ID"   : "493 778 332",
+			"URL"  : "https://meeting.tencent.com/s/wWP2a0kCkw4s"
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
