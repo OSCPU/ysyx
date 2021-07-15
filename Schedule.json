@@ -108,8 +108,8 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
-			"ID"   : "",
-			"URL"  : ""
+			"ID"   : "BV1PU4y1V7X3[P8]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=8"
 		}
 	},
 	"2021-07-14_QA_Session": {
@@ -119,8 +119,8 @@
 		"Host"       : ["薛臻", "杨烨", "肖天海"],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
-			"ID"   : "299 408 304",
-			"URL"  : "https://meeting.tencent.com/s/cZCxS6CtRQXT"
+			"ID"   : "",
+			"URL"  : ""
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
