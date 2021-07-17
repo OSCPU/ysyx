@@ -169,6 +169,10 @@
 		"Type"       : "讲座",
 		"Topic"      : "Difftest 处理器验证方法介绍",
 		"Host"       : ["余子濠", "王华强"],
+		"shared_files":[
+			"DiffTest-一种高效的处理器验证方法.pdf",
+			"difftest框架介绍.pdf"
+		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "840 945 136",
