@@ -1,9 +1,10 @@
 [
 	{
-		"content" : "下一次检查 <b>\"进度汇报\"</b> 计划于 <b>7月16日19:00(CST)</b> 进行.",
+		"content" : "下一次讲座 <b>\"Difftest 处理器验证方法介绍\"</b> 计划于 <b>7月17日19:00(CST)</b> 进行.",
 		"shortcut": {
-			"查看分组": "/ysyx/events/events.html?EID=2021-07-16_Inspection"
+			"查看详情": "/ysyx/events/events.html?EID=2021-07-17_Difftest",
+			"加入会议": "https://meeting.tencent.com/s/bdM4HUyMShlL"
 		},
-		"color"   : "#d94040"
+		"color"   : "var(--accent-bright)"
 	}
 ]
