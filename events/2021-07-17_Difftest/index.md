@@ -10,6 +10,6 @@ Difftest源自软件工程领域，全程Diffrenttial Testing。核心思想是�
 
 nemu包含了能支持linux运行的指令，足够我们现阶段的测试。
 
-### nemu作为一个"黄金模型"，怎么保证neme模拟指令行为的正确性？
+### nemu作为一个"黄金模型"，怎么保证nemu模拟指令行为的正确性？
 
 我们使用nemu和qemu进行过difftest，可以认为nemu的实现是正确的，如果不相信nemu，也可以使用qemu进行difftest。
