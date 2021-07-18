@@ -189,6 +189,9 @@
 		"Type"       : "讲座",
 		"Topic"      : "Git 介绍",
 		"Host"       : ["唐浩晋"],
+		"shared_files":[
+			"Git 操作.pdf"
+		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "493 778 332",
