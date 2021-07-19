@@ -8,9 +8,9 @@ Git 是一种分布式版本控制系统, 它是一种分布式的, 能够记录
 
 ### origin 是什么意思？它和 master 有什么区别？
 
-origin 是远程仓库的名字, 它并没有任何特殊的含义和用处, 唯一的特别之处在于 `git clone` 后, Git 会把源仓库命名为 origin．
+origin 是远程仓库的名字, 它并没有任何特殊的含义和用处, 唯一的特别之处在于 `git clone` 后, Git 会把源仓库命名为 origin．  
 master 是一个分支名, 在通常情况下, 它是默认的分支默认名字 (在BLM运动后, 有的人正在使用 main 来取代 master), 它与 origin 是两个不同概念上的东西．
 
 ### 进一步阅读
-https://git-man.tanghaojin.site/
+https://git-man.tanghaojin.site/  
 https://git-scm.com/book/zh/v2
