@@ -6,7 +6,7 @@
 override val desiredName = "YourName"
 ```
 
-## 请问有什么 Scala 语法糖相关的资料推荐吗？
+## 请问 Scala 语法糖相关的资料推荐吗？
 
 我们主要精力还是放在电路本身，就不用系统地学习 Scala了。这些语法糖可以看看 UCB 的 GitHub repo，多阅读大神们的代码，你会收获颇丰的。
 
