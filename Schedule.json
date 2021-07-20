@@ -208,10 +208,29 @@
 		"Type"       : "讲座",
 		"Topic"      : "Chisel 使用经验",
 		"Host"       : ["陈春昀"],
+		"shared_files":[
+			"Chisel 使用经验.pdf"
+		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "497 840 977",
 			"URL"  : "https://meeting.tencent.com/s/TiI6m3PpEyvV"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P11]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=11"
+		}
+	},
+	"2021-07-21_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["洪志博","杨烨","张行健","尹承彬","周聪"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "472 933 643",
+			"URL"  : "https://meeting.tencent.com/s/ONmN2c1Yyary"
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
