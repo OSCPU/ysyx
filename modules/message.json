@@ -1,9 +1,8 @@
 [
 	{
-		"content" : "下一次讲座 <b>\"Chisel 使用经验\"</b> 计划于 <b>7月20日(今天) 19:00 CST </b> 进行.",
+		"content" : "下一次答疑 <b>\"Q&A Session\"</b> 计划于 <b>7月21日(今天) 19:00 CST </b> 进行.",
 		"shortcut": {
-			"查看详情": "/ysyx/events/events.html?EID=2021-07-20_Chisel_Usage",
-			"加入会议": "https://meeting.tencent.com/s/TiI6m3PpEyvV"
+			"加入会议": "https://meeting.tencent.com/s/ONmN2c1Yyary"
 		},
 		"color"   : "var(--accent-bright)"
 	}
