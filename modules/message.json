@@ -1,8 +1,8 @@
 [
 	{
-		"content" : "下一次答疑 <b>\"Q&A Session\"</b> 计划于 <b>7月21日(今天) 19:00 CST </b> 进行.",
+		"content" : "下一次检查 <b>\"进度汇报\"</b> 计划于 <b>7月23日 19:00 CST </b> 进行.",
 		"shortcut": {
-			"加入会议": "https://meeting.tencent.com/s/ONmN2c1Yyary"
+			"查看分组": "/ysyx/events/events.html?EID=2021-07-23_Inspection"
 		},
 		"color"   : "var(--accent-bright)"
 	}
