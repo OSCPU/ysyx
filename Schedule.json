@@ -234,6 +234,42 @@
 		},
 		"PlayBack"   : {
 			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P12]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=12"
+		}
+	},
+	"2021-07-23_Inspection": {
+		"Time_Start" : "",
+		"Type"       : "检查",
+		"Topic"      : "进度汇报",
+		"Host"       : ["洪志博", "夏斌", "王唯一", "吴莹", "杨浩泽", "郭明鑫"],
+		"LiveMeeting": [{
+			"Title": "第一组 10:00",
+			"ID"   : "966 958 643",
+			"URL"  : "https://meeting.tencent.com/s/iQd86VLspkf4"
+		},{
+			"Title": "第二组 10:00",
+			"ID"   : "138 454 475",
+			"URL"  : "https://meeting.tencent.com/s/H4txiQFk03NP"
+		},{
+			"Title": "第三组 15:00",
+			"ID"   : "640 511 414",
+			"URL"  : "https://meeting.tencent.com/s/iMxaSG9RMo8M"
+		},{
+			"Title": "第四组 15:00",
+			"ID"   : "",
+			"URL"  : ""
+		},{
+			"Title": "第五组 19:00",
+			"ID"   : "953 824 077",
+			"URL"  : "https://meeting.tencent.com/s/DmB2UeY5TKTI"
+		},{
+			"Title": "第六组 19:00",
+			"ID"   : "760 461 667",
+			"URL"  : "https://meeting.tencent.com/s/RZ2ubXKbaPvp"
+		}],
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
 			"ID"   : "",
 			"URL"  : ""
 		}
