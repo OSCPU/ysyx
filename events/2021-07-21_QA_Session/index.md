@@ -12,7 +12,7 @@
 
 ### 是否有详细的difftest接入过程？
 
-可以按照讨论区中的其他同学分享的difftest接入步骤：https://github.com/OSCPU/ysyx/issues/8。
+可以按照讨论区中的其他同学分享的difftest接入步骤：https://github.com/OSCPU/ysyx/issues/8
 
 ### 为什么cpu-tests中程序的起始地址是0x80000000？
 
