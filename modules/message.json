@@ -1,8 +1,8 @@
 [
 	{
-		"content" : "下一次检查 <b>\"进度汇报\"</b> 计划于 <b>7月23日 19:00 CST </b> 进行.",
+		"content" : "暂无计划中的活动",
 		"shortcut": {
-			"查看分组": "/ysyx/events/events.html?EID=2021-07-23_Inspection"
+			"查看历史活动": "/ysyx/events"
 		},
 		"color"   : "var(--accent-bright)"
 	}
