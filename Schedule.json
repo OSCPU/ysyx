@@ -274,6 +274,22 @@
 			"URL"  : ""
 		}
 	},
+	"2021-07-29_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["刘定邦", "陈春昀", "苑子琦", "洪志博"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "532 363 715",
+			"URL"  : "https://meeting.tencent.com/s/IHUSBzBnxPut"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-09-05_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
