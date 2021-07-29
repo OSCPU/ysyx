@@ -290,6 +290,42 @@
 			"URL"  : ""
 		}
 	},
+	"2021-07-29_Inspection": {
+		"Time_Start" : "",
+		"Type"       : "检查",
+		"Topic"      : "进度汇报",
+		"Host"       : ["洪志博", "夏斌", "王唯一", "吴莹", "杨浩泽", "郭明鑫"],
+		"LiveMeeting": [{
+			"Title": "第一组 10:00",
+			"ID"   : "388 719 585",
+			"URL"  : "https://meeting.tencent.com/s/bPusQWkqqHmV"
+		},{
+			"Title": "第二组 10:00",
+			"ID"   : "115 782 274",
+			"URL"  : "https://meeting.tencent.com/s/Wrdr2eiKClDm"
+		},{
+			"Title": "第三组 15:00",
+			"ID"   : "309 5955 0299",
+			"URL"  : "https://meeting.tencent.com/s/v5JrItiS4x7q"
+		},{
+			"Title": "第四组 15:00",
+			"ID"   : "242 535 017",
+			"URL"  : "https://meeting.tencent.com/s/lF9aFoYic12G"
+		},{
+			"Title": "第五组 19:00",
+			"ID"   : "142 872 870",
+			"URL"  : "https://meeting.tencent.com/s/ezKrntzuyQtQ"
+		},{
+			"Title": "第六组 19:00",
+			"ID"   : "264 129 729",
+			"URL"  : "https://meeting.tencent.com/s/YqJKXVRh9Spo"
+		}],
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-09-05_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
