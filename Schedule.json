@@ -326,6 +326,22 @@
 			"URL"  : ""
 		}
 	},
+	"2021-07-31_Bus_and_IO": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "总线和输入输出",
+		"Host"       : ["唐浩晋"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "475 477 061",
+			"URL"  : "https://meeting.tencent.com/s/X61AJS7zIsa4"
+		},
+		"PlayBack"   : {
+			"Title": "",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-09-05_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
