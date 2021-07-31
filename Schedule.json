@@ -331,6 +331,9 @@
 		"Type"       : "讲座",
 		"Topic"      : "总线和输入输出",
 		"Host"       : ["唐浩晋"],
+		"shared_files":[
+			"总线和输入输出.pdf"
+		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "475 477 061",
