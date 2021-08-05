@@ -4,7 +4,7 @@ time-test需要实现__am_timer_uptime函数，该函数可以通过mcycle寄存
 
 ### 如何测试写的AXI是否正确呢？
 
-可以根据AXI协议的时序自己编写一个slave端程序来测试，我们也提供了一个uart ip(https://github.com/OSCPU/peripheral/tree/uart-axi/uart)，可以用来测试自己写的master端的正确性。
+可以根据AXI协议的时序自己编写一个slave端程序来测试，我们也提供了一个[uart ip](https://github.com/OSCPU/peripheral/tree/uart-axi/uart)，可以用来测试自己写的master端的正确性。
 
 ### 先加CSR后加流水线和先加流水线后加CSR有什么区别?
 
