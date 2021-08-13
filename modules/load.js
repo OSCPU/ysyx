@@ -286,7 +286,7 @@ function render_download_cards(key, event){
 		return event.shared_files.map(file_name =>`
 		<a style="background-color: #dfdfdf;" href="/ysyx/events/${key}/${file_name}" download>
 			<i class='codicon codicon-cloud-download'></i>
-			<div style="text-align: left">${file_name}</div>
+			<div style="text-align: left">${UI_Safe(file_name)}</div>
 		</a>
 		`.trim()).join('\n')
 	return ''
@@ -361,3 +361,11 @@ Array.from(document.getElementsByTagName("module")).forEach(module => {
 	else
 		console.exception(`Unrecognized module "${role}"`);
 });
+
+function UI_Safe(str){
+	return str.replace(/\&/g, '&amp;')
+			  .replace(/\</g, '&lt;')
+			  .replace(/\>/g, '&gt;')
+			  .replace(/\"/g, '&quot;')
+			  .replace(/\'/g, '&apos;')
+}
