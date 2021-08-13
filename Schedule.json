@@ -25,7 +25,7 @@
 		"Host"       : ["洪志博"],
 		"shared_files"  :[
 			"verilator_installer.tar.gz",
-			"Verilator+gtkwave快速上手教程.pdf"
+			"verilator&gtkwave安装教程.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
