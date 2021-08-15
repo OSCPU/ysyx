@@ -462,9 +462,9 @@
 			"URL"  : "https://meeting.tencent.com/s/huCJ7fW7cEyZ"
 		},
 		"PlayBack"   : {
-			"Title": "",
-			"ID"   : "",
-			"URL"  : ""
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P15]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=15"
 		}
 	},
 	"2021-08-18_RT-Thread_Porting": {
