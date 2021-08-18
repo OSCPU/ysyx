@@ -474,6 +474,7 @@
 		"Topic"      : "RT-Thread移植",
 		"Host"       : ["陈璐"],
 		"shared_files":[
+			"RT-thread移植.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
@@ -481,9 +482,9 @@
 			"URL"  : "https://meeting.tencent.com/s/RVq9uOxdIFTH"
 		},
 		"PlayBack"   : {
-			"Title": "",
-			"ID"   : "",
-			"URL"  : ""
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P16]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=16"
 		}
 	},
 	"2021-08-20_RT-Thread_Introduction": {
