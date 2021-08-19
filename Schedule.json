@@ -487,6 +487,22 @@
 			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=16"
 		}
 	},
+	"2021-08-19_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["杨烨", "薛臻", "刘定邦"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "991 744 577",
+			"URL"  : "https://meeting.tencent.com/dm/WRlaEFcdODKq"
+		},
+		"PlayBack"   : {
+			"Title": "",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-08-20_RT-Thread_Introduction": {
 		"Time_Start" : "19:00",
 		"Type"       : "讲座",
