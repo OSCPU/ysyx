@@ -1,6 +1,6 @@
 ### 取指和访存的仲裁器需要实现 2 to 1，还是2 to 2的interconnect呢？
 
-我们提供了3个AXI4-FULL接口，分别是两个master端的MEM和MMIO接口，一个slave端的DMA接口，其中DMA可以不用。所以需要2 to 2的interconnect。如下图所示，其中axi_rw属于自定义的模块，可以根据CPU的需要添加或者删除。
+我们提供了3个AXI4-FULL接口，分别是两个master端的RAM和MMIO接口，一个slave端的DMA接口，其中DMA可以不用。所以需要2 to 2的interconnect。如下图所示，其中axi_rw属于自定义的模块，可以根据CPU的需要添加或者删除。
 ![AXi](./2021-08-19_QA_Session/AXI.svg)
 
 ### 例程中给出的axi_rw模块中的自定义信号可以增加或者删除吗？
