@@ -516,6 +516,42 @@
 			"URL"  : "https://meeting.tencent.com/s/NojNwhiOGv4M"
 		},
 		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P18]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=18"
+		}
+	},
+	"2021-08-25_Usage_Of_Chisel_In_Nutshell": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "Chisel在Nutshell中的应用",
+		"Host"       : ["王凯帆"],
+		"shared_files":[
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "189 915 472",
+			"URL"  : "https://meeting.tencent.com/dm/EuM5CJKiXlkc"
+		},
+		"PlayBack"   : {
+			"Title": "",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-08-29_Pipeline_Introduction": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "流水线介绍",
+		"Host"       : ["叶从容"],
+		"shared_files":[
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "466 159 603",
+			"URL"  : "https://meeting.tencent.com/dm/TGPalAiUM65x"
+		},
+		"PlayBack"   : {
 			"Title": "",
 			"ID"   : "",
 			"URL"  : ""
