@@ -1,6 +1,6 @@
 ### 取指和访存的仲裁器需要实现2 to 1，还是2 to 2的interconnect呢？
 
-除了clock和reset，还有2个AXI4-FULL接口，其中一个是master端的RAM&MMIO接口，另一个是slave端的DMA接口，DMA接口可以不用。所以需要2 to 2的interconnect。下图是我们给出的一个芯片内外设之间的连接，其中axi_rw属于自定义的模块，可以根据CPU的需要添加或者删除。
+除了clock和reset，还有2个AXI4-FULL接口，其中一个是master端的RAM&MMIO接口，另一个是slave端的DMA接口，DMA接口可以不用。如果把CLINT当作AXI slave，那么至少需要2 to 2的interconnect。下图是我们给出的一个芯片内外设之间连接的参考示例图，其中axi_rw属于自定义的模块，可以根据CPU的需要添加或者删除。
    
 <center><img src="./2021-08-19_QA_Session/ysyx.svg" style=" width: 90%;"/></center>
 
