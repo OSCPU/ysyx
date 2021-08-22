@@ -1,7 +1,7 @@
 ### 取指和访存的仲裁器需要实现2 to 1，还是2 to 2的interconnect呢？
 
 除了clock和reset，还有2个AXI4-FULL接口，其中一个是master端的RAM&MMIO接口，另一个是slave端的DMA接口，DMA接口可以不用。所以需要2 to 2的interconnect。下图是我们给出的一个芯片内外设之间的连接，其中axi_rw属于自定义的模块，可以根据CPU的需要添加或者删除。
-![AXi](./2021-08-19_QA_Session/ysyx.svg)
+![ysyx](./2021-08-19_QA_Session/ysyx.svg)
 
 ### 例程中给出的axi_rw模块中的自定义信号可以增加或者删除吗？
 
