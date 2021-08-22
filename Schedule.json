@@ -539,6 +539,24 @@
 			"URL"  : ""
 		}
 	},
+	"2021-08-27_SERVE_Cloud": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "在SERVE云平台上实现处理器敏捷开发与原型验证",
+		"Host"       : ["王嵩岳"],
+		"shared_files":[
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "677 784 861",
+			"URL"  : "https://meeting.tencent.com/dm/rlVvP3zObeMv"
+		},
+		"PlayBack"   : {
+			"Title": "",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-08-29_Pipeline_Introduction": {
 		"Time_Start" : "19:00",
 		"Type"       : "讲座",
