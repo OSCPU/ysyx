@@ -19,3 +19,9 @@ difftest框架由于最初是专门为香山项目而设计的，不会出现siz
 ### 用verilog写cache，里面的reg会在后端被综合为ram吗?
 
 不会综合成ram，只会综合成寄存器堆。
+
+### 扩展
+
+[glibc](https://www.gnu.org/software/libc/sources.html)
+
+[printf](https://github.com/mpaland/printf)
