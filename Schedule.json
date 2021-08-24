@@ -509,6 +509,7 @@
 		"Topic"      : "RT-Thread详解",
 		"Host"       : ["唐伟康"],
 		"shared_files":[
+			"rt-thread详解.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
