@@ -528,11 +528,28 @@
 		"Topic"      : "Chisel在Nutshell中的应用",
 		"Host"       : ["王凯帆"],
 		"shared_files":[
+			"chisel-in-a-nutshell.pptx"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
 			"ID"   : "189 915 472",
 			"URL"  : "https://meeting.tencent.com/dm/EuM5CJKiXlkc"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P19]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=19"
+		}
+	},
+	"2021-08-26_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["张行健", "叶从容", "苑子琦", "史历"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "233 535 089",
+			"URL"  : "https://meeting.tencent.com/dm/i3ScZu9xG7pG"
 		},
 		"PlayBack"   : {
 			"Title": "",
