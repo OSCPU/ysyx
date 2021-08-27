@@ -9,3 +9,7 @@
 ### assign赋值的波形都和预期不一样怎么办？
 
 这种问题往往是因为错误的连线造成的，可以断开模块的所有外部连接，单独测试模块内部的波形是否符合预期，然后再逐步检查模块外部的连接是否正确。
+
+### 测试axi时序时，发现valid和ready总是错位一个时钟周期，但却能正常握手，这是怎么回事？
+
+verilator的仿真策略是只记录组合逻辑电路的最状态，不记录中间值。假设当前master处于读地址状态(ar_valid=1，ar_ready=0，clock=0)，在某时刻slave(difftest)拉高ar_ready，并且拉高clock，然后开始评估电路状态，此时CPU判断握手成功(ar_valid=1，ar_ready=1)，状态机切下一状态(ar_valid=0，r_valid=1)，评估完成，difftest记录此时组合逻辑电路的最终状态波形(ar_valid=0，ar_ready=1)，就出现了valid和ready错位的情况，但CPU的实现逻辑是正确的，所以不必担心。
