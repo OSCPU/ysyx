@@ -4,8 +4,7 @@
 <html class="writer-html5" lang="zh-CN" >
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>参考资料 &mdash; &#34;一生一芯&#34; 项目WIKI  documentation</title>
@@ -88,7 +87,7 @@
               
             
             
-              <p class="caption"><span class="caption-text">项目概览</span></p>
+              <p class="caption" role="heading"><span class="caption-text">项目概览</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="procedure.html">项目流程</a></li>
 <li class="toctree-l1"><a class="reference internal" href="enroll.html">参与项目</a></li>
@@ -107,13 +106,13 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="collateral.html">合作/赞助机构</a></li>
 </ul>
-<p class="caption"><span class="caption-text">进度计划</span></p>
+<p class="caption" role="heading"><span class="caption-text">进度计划</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../tasks/prepare.html">前期准备</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tasks/basic.html">基础: CPU核心构建与调试 (3个月)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tasks/advanced.html">进阶: 性能/时序优化、后端流程等</a></li>
 </ul>
-<p class="caption"><span class="caption-text">常见问题解答</span></p>
+<p class="caption" role="heading"><span class="caption-text">常见问题解答</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/Verilog_and_Chisel.html">Verilog 和 Chisel 语言</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/Verilator.html">Verilator</a></li>
@@ -185,13 +184,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <section id="materials">
+  <div class="section" id="materials">
 <span id="id1"></span><h1>参考资料<a class="headerlink" href="#materials" title="Permalink to this headline">¶</a></h1>
-<section id="id2">
+<div class="section" id="id2">
 <h2>总体原则<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>“一生一芯”计划，鼓励同学们主动探索和积极实践。故而，没有课堂式教学，仅提供关键节点的引导和部分参考资料。绝大部分任务，都需要同学们自己去查资料和动手摸索。</p>
-</section>
-<section id="id3">
+</div>
+<div class="section" id="id3">
 <h2>参考书<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <dl class="field-list simple">
 <dt class="field-odd">数字电路</dt>
@@ -215,10 +214,10 @@
 <p class="admonition-title">Note</p>
 <p>如上推荐但不限于，因为每个学校的课程和教材会有所区别，请根据各人情况自行调整</p>
 </div>
-</section>
-<section id="id4">
+</div>
+<div class="section" id="id4">
 <h2>其它参考资料<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<section id="id5">
+<div class="section" id="id5">
 <h3>仿真验证环境<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <dl class="field-list simple">
 <dt class="field-odd">Verilator</dt>
@@ -240,8 +239,8 @@
 <dd class="field-even"><p><a class="reference external" href="http://www.nscscc.org/a/wangjie/NSCSCC2018/2018/1010/46.html">[nscscc.org] 南京大学二队报告</a></p>
 </dd>
 </dl>
-</section>
-<section id="risc-v">
+</div>
+<div class="section" id="risc-v">
 <h3>RISC-V<a class="headerlink" href="#risc-v" title="Permalink to this headline">¶</a></h3>
 <dl class="field-list simple">
 <dt class="field-odd">RISC-V指令集手册</dt>
@@ -251,8 +250,8 @@
 <dd class="field-even"><p><a class="reference external" href="https://github.com/riscv/">[GitHub] riscv</a> (如ABI规范等)</p>
 </dd>
 </dl>
-</section>
-<section id="chisel">
+</div>
+<div class="section" id="chisel">
 <h3>Chisel<a class="headerlink" href="#chisel" title="Permalink to this headline">¶</a></h3>
 <dl class="field-list simple">
 <dt class="field-odd"><a class="reference external" href="https://github.com/freechipsproject/chisel-bootcamp">Chisel Bootcamp</a></dt>
@@ -278,8 +277,8 @@
 <dd class="field-even"><p>可以作为模板使用</p>
 </dd>
 </dl>
-</section>
-<section id="chiselrisc-v">
+</div>
+<div class="section" id="chiselrisc-v">
 <h3>用Chisel开发的RISC-V处理器示例项目<a class="headerlink" href="#chiselrisc-v" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://github.com/ucb-bar/riscv-sodor">https://github.com/ucb-bar/riscv-sodor</a></p></li>
@@ -287,9 +286,9 @@
 <li><p><a class="reference external" href="https://github.com/freechipsproject/rocket-chip">https://github.com/freechipsproject/rocket-chip</a> (不适合入门阅读)</p></li>
 <li><p><a class="reference external" href="https://github.com/OpenXiangShan/XiangShan">https://github.com/OpenXiangShan/XiangShan</a> (非常复杂的处理器)</p></li>
 </ol>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
            </div>
