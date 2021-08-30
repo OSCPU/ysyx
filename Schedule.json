@@ -455,6 +455,7 @@
 		"Topic"      : "中断异常",
 		"Host"       : ["高泽宇"],
 		"shared_files":[
+			"中断异常.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
@@ -462,9 +463,9 @@
 			"URL"  : "https://meeting.tencent.com/s/huCJ7fW7cEyZ"
 		},
 		"PlayBack"   : {
-			"Title": "",
-			"ID"   : "",
-			"URL"  : ""
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P15]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=15"
 		}
 	},
 	"2021-08-18_RT-Thread_Porting": {
@@ -473,6 +474,7 @@
 		"Topic"      : "RT-Thread移植",
 		"Host"       : ["陈璐"],
 		"shared_files":[
+			"RT-thread移植.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
@@ -480,9 +482,25 @@
 			"URL"  : "https://meeting.tencent.com/s/RVq9uOxdIFTH"
 		},
 		"PlayBack"   : {
-			"Title": "",
-			"ID"   : "",
-			"URL"  : ""
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P17]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=17"
+		}
+	},
+	"2021-08-19_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["杨烨", "薛臻", "刘定邦"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "991 744 577",
+			"URL"  : "https://meeting.tencent.com/dm/WRlaEFcdODKq"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P18]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=18"
 		}
 	},
 	"2021-08-20_RT-Thread_Introduction": {
@@ -491,6 +509,7 @@
 		"Topic"      : "RT-Thread详解",
 		"Host"       : ["唐伟康"],
 		"shared_files":[
+			"rt-thread详解.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
@@ -498,9 +517,63 @@
 			"URL"  : "https://meeting.tencent.com/s/NojNwhiOGv4M"
 		},
 		"PlayBack"   : {
-			"Title": "",
-			"ID"   : "",
-			"URL"  : ""
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P19]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=19"
+		}
+	},
+	"2021-08-25_Usage_Of_Chisel_In_Nutshell": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "Chisel在Nutshell中的应用",
+		"Host"       : ["王凯帆"],
+		"shared_files":[
+			"chisel-in-a-nutshell.pptx"
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "189 915 472",
+			"URL"  : "https://meeting.tencent.com/dm/EuM5CJKiXlkc"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P20]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=20"
+		}
+	},
+	"2021-08-26_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["张行健", "叶从容", "苑子琦", "史历"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "233 535 089",
+			"URL"  : "https://meeting.tencent.com/dm/i3ScZu9xG7pG"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P21]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=21"
+		}
+	},
+	"2021-08-29_Pipeline_Introduction": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "流水线介绍",
+		"Host"       : ["叶从容"],
+		"shared_files":[
+			"流水线介绍.pdf"
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "466 159 603",
+			"URL"  : "https://meeting.tencent.com/dm/TGPalAiUM65x"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P22]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=22"
 		}
 	},
 	"2021-09-05_Deadline": {

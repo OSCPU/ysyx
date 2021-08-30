@@ -12,4 +12,4 @@ time-test需要实现__am_timer_uptime函数，该函数可以通过mcycle寄存
 
 ### 流片时CPU对外的接口有哪些？
 
-除了clock和reset，还有3个AXI4-FULL接口，分别是两个master端的MEM和MMIO接口，一个slave端的DMA接口，其中DMA可以不用。
+除了clock和reset，还有2个AXI4-FULL接口，其中一个是master端的RAM&MMIO接口，另一个是slave端的DMA接口，DMA接口可以不用。
