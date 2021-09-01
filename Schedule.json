@@ -594,6 +594,24 @@
 			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=23"
 		}
 	},
+	"2021-09-01_grouping": {
+		"Time_Start" : "21:00",
+		"Type"       : "分组",
+		"Topic"      : "分组",
+		"Host"       : ["洪志博", "夏斌", "祁民浩", "梅晓龙", "杨烨"],
+		"shared_files":[
+		],
+		"LiveMeeting": {
+			"Title": "",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack"   : {
+			"Title": "",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-09-05_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
