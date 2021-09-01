@@ -12,6 +12,6 @@ Verilator支持verilog和System verilog语言，但"一生一芯"第三期的助
 
 ### 扩展
 
-[一生一芯开发环境一键搭建](https://gitee.com/oscpu/oscpu-env-setup)
+[一生一芯开发环境一键搭建脚本](https://gitee.com/oscpu/oscpu-env-setup)
 
 [一生一芯开发框架](https://gitee.com/oscpu/oscpu-framework)
