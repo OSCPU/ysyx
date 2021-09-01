@@ -179,7 +179,7 @@ Module.header = module => {
 					<a class="link${dir.index &&'_current'||''}" ${dir.index &&''||'href="/ysyx/"'} style="font-weight: 500;"><i class="codicon codicon-home"></i>一生一芯计划</a>
 				<span flex>
 					<a class="link${dir.wiki  &&'_current'||''}" ${dir.wiki  &&''||'href="/ysyx/wiki/"'}>WIKI</a>
-					<a class="link${dir.prog  &&'_current'||''}" ${dir.prog  &&''||'href="https://docs.qq.com/sheet/DZG1NVExCWXpMaER6"'} target="_blank">学习记录<i class="codicon codicon-link-external"></i></a>
+					<a class="link${dir.prog  &&'_current'||''}" ${dir.prog  &&''||'href="https://docs.qq.com/sheet/DQXlVZldOc2V0eVNG"'} target="_blank">学习记录<i class="codicon codicon-link-external"></i></a>
 					<a class="link${dir.events&&'_current'||''}" ${dir.events&&''||'href="/ysyx/events/"'}>活动列表</a>
 					<a class="link${dir.posts &&'_current'||''}" ${dir.posts &&''||'href="/ysyx/posts/"'}>通知&公告</a>
 				</span>
