@@ -612,6 +612,22 @@
 			"URL"  : ""
 		}
 	},
+	"2021-09-02_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["王唯一", "杨烨", "龙康杰", "陈璐"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "681 580 351",
+			"URL"  : "https://meeting.tencent.com/dm/Yefb81qCSQJX?rs=25"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-09-05_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
