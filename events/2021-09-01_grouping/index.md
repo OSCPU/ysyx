@@ -14,9 +14,9 @@ https://docs.qq.com/sheet/DQXlVZldOc2V0eVNG?tab=BB08J2
 https://docs.qq.com/sheet/DZG1NVExCWXpMaER6?tab=zx5sxp
 
 各组微信群：
-<center><img src="./一组.png" style=" width: 50%;"/></center>
-<center><img src="./二组.png" style=" width: 50%;"/></center>
-<center><img src="./三组.jpg" style=" width: 50%;"/></center>
-<center><img src="./四组.jpg" style=" width: 50%;"/></center>
-<center><img src="./五组.jpg" style=" width: 50%;"/></center>
-<center><img src="./零组.jpg" style=" width: 50%;"/></center>
+<center><img src="./2021-09-01_grouping/一组.png" style=" width: 50%;"/></center>
+<center><img src="./2021-09-01_grouping/二组.png" style=" width: 50%;"/></center>
+<center><img src="./2021-09-01_grouping/三组.jpg" style=" width: 50%;"/></center>
+<center><img src="./2021-09-01_grouping/四组.jpg" style=" width: 50%;"/></center>
+<center><img src="./2021-09-01_grouping/五组.jpg" style=" width: 50%;"/></center>
+<center><img src="./2021-09-01_grouping/零组.jpg" style=" width: 50%;"/></center>
