@@ -582,6 +582,7 @@
 		"Topic"      : "一生一芯三期SOC架构设计与对接规范",
 		"Host"       : ["龙康杰", "陈璐"],
 		"shared_files":[
+			"ysyx3soc对接及规范要求V1.2.6.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
