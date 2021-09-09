@@ -1,3 +1,7 @@
+### 如何接入SOC？
+
+先接入[一生一芯计划仿真用SoC工程](https://github.com/OSCPU/ysyxSoC)以验证自己编写的CPU能够用于接入SOC，之后向组长申请提交代码。
+
 ### DMA这个通道有哪些数据需要告知cpu？
 
 SoC没提供DMA ip，可以不用这个功能，但是接口保留; 如果不知道DMA是什么，可以悬空,想弄清楚这个原理，可以参考rocketchip，或者果壳的设计。
@@ -67,6 +71,3 @@ python2下输入学号时手动补0有可能会触发相关异常
 1.推荐python3运行脚本，python3 cpu-check.py
 
 2.学号后4位代码会自动补0，不需要手动补0
-
-
-[一生一芯计划仿真用SoC工程](https://github.com/OSCPU/ysyxSoC)
