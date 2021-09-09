@@ -629,23 +629,7 @@
 			"URL"  : ""
 		}
 	},
-	"2021-09-05_Deadline": {
-		"Time_Start" : "19:00",
-		"Type"       : "节点",
-		"Topic"      : "Soc 对接",
-		"Host"       : ["TBD"],
-		"LiveMeeting": {
-			"Title": "会议信息 (腾讯会议)",
-			"ID"   : "",
-			"URL"  : ""
-		},
-		"PlayBack"   : {
-			"Title": "回放信息 (哔哩哔哩)",
-			"ID"   : "",
-			"URL"  : ""
-		}
-	},
-	"2021-09-18_Deadline": {
+	"2021-09-15_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
 		"Topic"      : "代码提交",
