@@ -629,6 +629,22 @@
 			"URL"  : ""
 		}
 	},
+	"2021-09-02_QA_Session": {
+		"Time_Start" : "19:00",
+		"Type"       : "答疑",
+		"Topic"      : "Q&A Session",
+		"Host"       : ["叶从容", "潘星雨", "soc团队", "薛臻"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "965 691 645",
+			"URL"  : "https://meeting.tencent.com/dm/M4q3ozM7NFAb"
+		},
+		"PlayBack"   : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-09-15_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
