@@ -645,7 +645,25 @@
 			"URL"  : ""
 		}
 	},
-	"2021-09-15_Deadline": {
+	"2021-10-09_SERVE_Cloud": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "在SERVE云平台上实现处理器敏捷开发与原型验证",
+		"Host"       : ["王嵩岳"],
+		"shared_files":[
+		],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "394 350 750",
+			"URL"  : "https://meeting.tencent.com/dm/vfK4j1YSvUqe"
+		},
+		"PlayBack"   : {
+			"Title": "",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
+	"2021-11-07_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
 		"Topic"      : "代码提交",
