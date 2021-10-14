@@ -651,6 +651,7 @@
 		"Topic"      : "在SERVE云平台上实现处理器敏捷开发与原型验证",
 		"Host"       : ["王嵩岳"],
 		"shared_files":[
+			"SERVE-ysyx-v5.pdf"
 		],
 		"LiveMeeting": {
 			"Title": "会议信息 (腾讯会议)",
@@ -658,12 +659,12 @@
 			"URL"  : "https://meeting.tencent.com/dm/vfK4j1YSvUqe"
 		},
 		"PlayBack"   : {
-			"Title": "",
-			"ID"   : "",
-			"URL"  : ""
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "BV1PU4y1V7X3[P24]",
+			"URL"  : "https://www.bilibili.com/video/BV1PU4y1V7X3?p=24"
 		}
 	},
-	"2021-11-07_Deadline": {
+	"2021-10-16_Deadline": {
 		"Time_Start" : "19:00",
 		"Type"       : "节点",
 		"Topic"      : "代码提交",
