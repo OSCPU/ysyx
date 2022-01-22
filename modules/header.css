@@ -6,12 +6,12 @@
 	font-weight: 200;
 	vertical-align: bottom;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .header span[flex]{
 	display: flex;
 	flex-wrap: wrap;
-	flex-grow: 1;
 	justify-content: right;
 	margin: 0;
 }

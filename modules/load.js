@@ -216,7 +216,7 @@ function render_event(key, event){
 					<div class="event_subtitle">负责人: ${event.Host.join(', ')}</div>
 					<div class="event_subtitle">${date[0]}年${date[1]}月${date[2]}日 ${event.Time_Start} CST</div>
 				</span>
-				<span style="display: flex; flex-grow: 1; flex-direction: row; justify-content: right;">
+				<span style="display: flex; flex-grow: 1; flex-direction: row; justify-content: flex-end;">
 					${links}
 				</span>
 			</span> 
