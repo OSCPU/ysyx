@@ -84,6 +84,7 @@
 	overflow-x: hidden;
 	flex-direction: row;
 	justify-content: left;
+	text-align: left;
 	vertical-align: center;
 }
 
