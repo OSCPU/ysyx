@@ -1,4 +1,20 @@
 {
+	"2022-01-23_SOC_Backend_Tech_Report": {
+		"Time_Start" : "19:00",
+		"Type"       : "讲座",
+		"Topic"      : "第三期\"一生一芯\" SoC和后端技术报告",
+		"Host"       : ["张文迪"],
+		"LiveMeeting": {
+			"Title": "会议信息 (腾讯会议)",
+			"ID"   : "",
+			"URL"  : ""
+		},
+		"PlayBack" : {
+			"Title": "回放信息 (哔哩哔哩)",
+			"ID"   : "",
+			"URL"  : ""
+		}
+	},
 	"2021-07-07_Startup": {
 		"Time_Start" : "21:00",
 		"Type"       : "讲座",
