@@ -56,7 +56,7 @@
 						throw Error('')
 				})
 				.then(md_src =>{
-					document.getElementById("article_body").innerHTML =marked(md_src);
+					document.getElementById("article_body").innerHTML =marked.marked(md_src);
 				})
 				.catch(e => {
 					document.getElementById("article_body").innerHTML = '<h3>暂无详情信息和FAQ</h3>';

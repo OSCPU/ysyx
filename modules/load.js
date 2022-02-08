@@ -19,8 +19,8 @@ var Schedule = undefined,
 				.replace(/^\/(ysyx\/)?/g,'')
 				.split('/')
 				.map(s => s.toLowerCase()),
-	EID		= search_key('EID'),
-	Module = {};
+	EID      = search_key('EID'),
+	Module   = {};
 
 Module.message = module => {
 	load_css("message", "/ysyx/modules");
