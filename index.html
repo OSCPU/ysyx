@@ -8,7 +8,7 @@
 		<script src="./index.js"></script>
 	</head>
 	<body>
-		<module role="message"></module>
+		<!-- <module role="message"></module> -->
 		<center>
 		<module role="header"></module>
 		<!------------------------------------>
@@ -17,12 +17,13 @@
 			<span style="flex: 1.6;"><img src="res/logo/YSYX.png" style="width: 15em; height: 14em;"/></span>
 			<span style="flex: 0; flex-grow: 0.3;"></span>
 			<span id="slogan" style="flex: 4; font-size: 1.8em; font-weight: 500; text-align: left; flex-direction: column; line-height: 1.4; min-width: 10em;">
+				<!-- <span style="flex: 1; line-height: 1.6; font-size: 0.6em; border-bottom: 2px gray; font-weight: bold; color">「认识芯片 敬畏芯片」</span> -->
 				<span style="flex: 1; line-height: 1.6;">从零开始</span>
-				<span style="flex: 1; line-height: 1.6;">设计、验证、测试一颗自己的RISC芯片</span>
-				<span style="flex: 1; line-height: 1.6;">答辩通过即可获得流片机会<sup>[1]</sup></span>
+				<span style="flex: 1; line-height: 1.6;">设计一颗自己的RISC-V芯片</span>
+				<!-- <span style="flex: 1; line-height: 1.6;">答辩通过即可获得流片机会<sup>[1]</sup></span> -->
 				<span style="flex: 0; flex-grow: 1;"></span>
 				<span style="flex: 1; font-size: 0.6em; display: inline-block; color: gray; font-weight: 400;">
-					第三期 “一生一芯” 计划正在进行中, 点击 “如何报名” 了解详情
+					第四期 “一生一芯” 计划正在进行中, 点击 “如何参与” 了解详情
 				</span>
 			</span>
 			<span style="flex: 0; flex-grow: 1;"></span>
@@ -31,16 +32,13 @@
 		<div class="contentWrapper" id="keyNavi">
 			<span>
 				<span style="flex-grow: 1;"></span>
-				<a class="button task_list" href="/ysyx/wiki/tasks/prepare.html">任务列表</a>
+				<a class="button task_list" href="//docs.ysyx.org/about/about.html">关于项目</a>
 				<span style="flex-grow: 2;"></span>
-				<a class="button progress_list" href="https://docs.qq.com/sheet/DQXlVZldOc2V0eVNG">进度记录</a>
-				<span style="flex-grow: 1;"></span>
-			</span>
-			<span>
-				<span style="flex-grow: 1;"></span>
-				<a class="button submit_issues" href="https://github.com/OSCPU/ysyx/issues?q=is%3Aissue" target="_blank"><i class="codicon codicon-github-inverted"></i><span style="display: inline-block; width: 1.25em;"></span>讨论区</a>
+				<a class="button progress_list" href="https://docs.ysyx.org/about/enroll/student.html">学习讲义</a>
 				<span style="flex-grow: 2;"></span>
-				<a class="button how_to_enroll" href="/ysyx/wiki/about/enroll.html">参与项目</a>
+				<a class="button progress_list" href="">常见问题</a>
+				<span style="flex-grow: 2;"></span>
+				<a class="button how_to_enroll" href="https://docs.ysyx.org/prestudy/prestudy.html">如何参与</a>
 				<span style="flex-grow: 1;"></span>
 			</span>
 		</div>
@@ -53,54 +51,6 @@
 				</span>
 				<module role="recent_schedule"></module>
 			</div>
-		</div>
-		<!------------------------------------>
-		<div style="width: 100%; background-color: #EEE; padding: 2em 0;">
-			<div class="contentWrapper" >
-				<span style="display: block; width: 100%; text-align: center; font-weight: 500; color: #666; margin-bottom: 2em; font-size: 1.4em;">
-					项目时间线 (第三期)
-				</span>
-				<object type="image/svg+xml" data="res/Proc.svg" style="width: 100%; height: auto;">
-					时间线
-				</object>
-			</div>
-		</div>
-		<div style="width: 100%; padding: 2em 0;">
-			<div class="contentWrapper" >
-				<span style="display: block; width: 100%; text-align: center; font-weight: 500; color: #666; margin-bottom: 1em; font-size: 1.4em;">
-					各方向细分时间线
-				</span>
-				<object type="image/svg+xml" data="res/Process_Full.svg" style="width: 100%; height: auto;">
-					各方向细分时间线
-				</object>
-				<!-- <img src="res/Full_Proc.tmp.png" style="width: 100%; height: auto;"/> -->
-			</div>
-		</div>
-		<!------------------------------------>
-		<div class="contentWrapper poster">
-			<span style="flex: 2;"></span>
-				<span style="flex: 7; text-align: center; flex-direction: column; box-sizing: border-box;">
-					<span style="font-weight: 600; font-size: 1.4em; color: var(--accent);">总体目标</span>
-					<div style="width: 100%; height: 1px; margin: 0.6em 0; background-color: #fff0;"></div>
-					<span style="font-weight: 400; color: #555555; line-height: 1.5;">践行“硅上做教学”的理念，专注提升同学们的动手实践和主动探索能力，力求让同学们理解和掌握从体系结构设计到RTL开发，再到SoC集成和验证，并经由综合和物理设计等，最终生成GDSII版图的完整过程</span>
-				</span>
-				<span style="flex: 1;"></span>
-				<span style="width: 1.5px; background-color: #666;"></span>
-				<span style="flex: 1;"></span>
-				<span style="flex: 4; text-align: center; flex-direction: column; box-sizing: border-box;">
-					<span style="font-weight: 600; font-size: 1.4em; color: var(--accent);">基础任务</span>
-					<div style="width: 100%; height: 1px; margin: 0.6em 0; background-color: #fff0;"></div>
-					<span style="font-weight: 400; color: #555555; line-height: 1.5;">实现一个五级流水线、可启动 RT-Thread 的 RV64 处理器核，集成至 SoC 并进行验证，通过测试验收即可流片</span>
-				</span>
-				<span style="flex: 1;"></span>
-				<span style="width: 1.5px; background-color: #666;"></span>
-				<span style="flex: 1;"></span>
-				<span style="flex: 4; text-align: center; flex-direction: column; box-sizing: border-box;">
-					<span style="font-weight: 600; font-size: 1.4em; color: var(--accent);">进阶任务</span>
-					<div style="width: 100%; height: 1px; margin: 0.6em 0; background-color: #fff0;"></div>
-					<span style="font-weight: 400; color: #555555; line-height: 1.5;">能力优秀者可尝试启动Linux或实现乱序多发射；负责 SoC 集成和验证；参与 IC 后端支撑工作，设计可流片版图</span>
-				</span>
-				<span style="flex: 2;"></span>
 		</div>
 		<!------------------------------------>
 		<div style="width: 100%; background-color: #EEE; padding-top: 2em; padding-bottom: 1em;">
