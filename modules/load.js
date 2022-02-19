@@ -180,9 +180,9 @@ Module.header = module => {
 				<span flex>
 				<a class="link${dir.wiki  &&'_current'||''}" ${dir.wiki  &&''||'href="//docs.ysyx.org"'}>项目资料</a>
 					<a class="link${dir.prog  &&'_current'||''}" ${dir.prog  &&''||'href="https://docs.qq.com/sheet/DQXlVZldOc2V0eVNG"'} target="_blank">学习记录<i class="codicon codicon-link-external"></i></a>
-					<a class="link${dir.wiki  &&'_current'||''}" ${dir.wiki  &&''||'href="//docs.ysyx.org"'}>个人空间</a>
-					<a class="link${dir.wiki  &&'_current'||''}" ${dir.wiki  &&''||'href="//docs.ysyx.org"'}>登录</a>
-					<a class="link${dir.wiki  &&'_current'||''}" ${dir.wiki  &&''||'href="//docs.ysyx.org"'}>注册</a>
+					<a class="link${dir.wiki  &&'_current'||''} disabled">个人空间</a>
+					<a class="link${dir.wiki  &&'_current'||''} disabled">登录</a>
+					<a class="link${dir.wiki  &&'_current'||''} disabled">注册</a>
 				</span>
 			</div>
 		`.trim();
