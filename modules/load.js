@@ -178,7 +178,7 @@ Module.header = module => {
 			<div class="contentWrapper header">
 					<a class="link${dir.index &&'_current'||''}" ${dir.index &&''||'href="/ysyx/"'} style="font-weight: 500;"><i class="codicon codicon-home"></i>一生一芯计划</a>
 				<span flex>
-				<a class="link${dir.wiki  &&'_current'||''}" ${dir.wiki  &&''||'href="//docs.ysyx.org"'}>项目资料</a>
+				<a class="link${dir.wiki  &&'_current'||''}" ${dir.wiki  &&''||'href="//docs.ysyx.oscc.cc"'}>项目资料</a>
 					<a class="link${dir.prog  &&'_current'||''}" ${dir.prog  &&''||'href="https://docs.qq.com/sheet/DT29weHpIRWNnYlFl?tab=BB08J2"'} target="_blank">学习记录<i class="codicon codicon-link-external"></i></a>
 					<a class="link${dir.wiki  &&'_current'||''} disabled">个人空间</a>
 					<a class="link${dir.wiki  &&'_current'||''} disabled">登录</a>
